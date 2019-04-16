@@ -11,7 +11,7 @@ body {
 /*=============== header ===============*/
 header {
 	background-position: center;
-	height: 350px;
+	height: 425px;
 	width: 100%;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -146,58 +146,53 @@ h2:before {
 	width: 100%;
 	height: 9%;
 	display: block;
-	color: #FFF;
-    text-decoration: none;
-    text-align: center;
-    line-height: 9vh;
-    font-size: 22px;
-    font-family: "微軟正黑體";
+    text-indent: -9999px;
+	background-size:270px;
 }
 .p1 {
 	background-color: #e24f4f;
-	background-image: url(../img/menu/page/menu_p1.png);
+	background-image: url(../image/m1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .p2 {
-	background-color: #e58850;
-	background-image: url(../img/menu/page/menu_p2.png);
+	background-image: url(../image/m2.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .p3 {
 	background-color: #e8a542;
-	background-image: url(../img/menu/page/menu_p3.png);
+	background-image: url(../image/m3.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .p4 {
 	background-color: #50c092;
-	background-image: url(../img/menu/page/menu_p4.png);
+	background-image: url(../image/m4.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .p5 {
 	background-color: #4f9be2;
-	background-image: url(../img/menu/page/menu_p5.png);
+	background-image: url(../image/m5.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .p6 {
 	background-color: #576aae;
-	background-image: url(../img/menu/page/menu_p6.png);
+	background-image: url(../image/m6.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .p7 {
 	background-color: #8657ae;
-	background-image: url(../img/menu/page/menu_p7.png);
+	background-image: url(../image/m7.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .p8 {
 	background-color: #d56b8a;
-	background-image: url(../img/menu/page/menu_p8.png);
+	background-image: url(../image/m8.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -428,7 +423,7 @@ footer div p {padding: 15px 5%;}
 /*1280以下-1000以上*/
 @media screen and (max-width: 1280px) {
 	header{
-		height: 260px;
+		height: 425px;
     	background-size: cover;
 	}
 }
