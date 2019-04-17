@@ -60,13 +60,14 @@ li{list-style-type: none;}
 
 /*menu選單的元素*/
 .menu > .in{
-	width:100%;
-	height:20%;
-	background-color:#FFF;
-	background-image:url(../img/menu/menu_in.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-	display:block;
+	width: 100%;
+	height: 20%;
+	background-color: #FFF ;
+	background-image: url(../image/LOGO.jpg);
+	background-size:270px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
 }
 
 .menu > .down{
@@ -85,6 +86,7 @@ li{list-style-type: none;}
 	height:9%;
 	display:block;
 	text-indent:-9999px;
+	background-size:270px;
 	
 }
 .p1 {
@@ -219,7 +221,7 @@ p{padding:0; margin:0;}
     
     /*前往下一頁(第二層)*/	
     .click{
-        background-image:url(../img/click.png);
+        background-image:url(../image/touchme.png);
         width:33px;
         height:48px;
         position:absolute;
@@ -663,7 +665,7 @@ p{padding:0; margin:0;}
 /*選單按鈕*/	
 .menu_btn{
 	display:block;
-	background-image:url(../img/menu_btn.png);
+	background-image:url(../image/menu.png);
 	width:113px;
 	height:195px;
 	position:fixed;
@@ -1041,7 +1043,7 @@ p{padding:0; margin:0;}
 /*選單按鈕*/	
 .menu_btn{
 	display:block;
-	background-image:url(../img/menu_btn.png);
+	background-image:url(../image/menu.png);
 	width:113px;
 	height:195px;
 	position:fixed;
@@ -1650,7 +1652,7 @@ p{padding:0; margin:0;}
 /*選單按鈕*/	
 .menu_btn{
 	display:block;
-	background-image:url(../img/menu_btn.png);
+	background-image:url(../image/menu.png);
 	width:113px;
 	height:195px;
 	position:fixed;
@@ -2272,7 +2274,7 @@ p{padding:0; margin:0;}
 /*選單按鈕*/	
 .menu_btn{
 	display:block;
-	background-image:url(../img/menu_btn.png);
+	background-image:url(../image/menu.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	width:79.1px;
@@ -2896,7 +2898,7 @@ p{padding:0; margin:0;}
 /*選單按鈕*/	
 .menu_btn{
 	display:block;
-	background-image:url(../img/menu_btn.png);
+	background-image:url(../image/menu.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	width:79.1px;
