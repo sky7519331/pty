@@ -216,7 +216,7 @@ h2:before {
 	padding: 0;
 	width: 100%;
 	height: 27%;
-	background-color: #e67070;
+	background-color: #f09d3d;
 	display: none;
 }
 .p2_slide {
@@ -244,16 +244,16 @@ h2:before {
 	display: none;
 }
 .p1_slide a:hover {
-	background-color: #e24f4f;
+	background-color: #FFF;
 }
 .p2_slide a:hover {
-	background-color: #e58850;
+	background-color: #FFF;
 }
 .p3_slide a:hover {
-	background-color: #e8a542;
+	background-color: #FFF;
 }
 .p4_slide a:hover {
-	background-color: #50c092;
+	background-color: #FFF;
 }
 /*=============== 選單 end ===============*/
 /*=============== 子選單 ===============*/
