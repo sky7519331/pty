@@ -59,145 +59,142 @@ li{list-style-type: none;}
 .slide_04 .btn03:hover{background-image:url(../img/button/04/slide04_btn03_h.png);}
 
 /*menu選單的元素*/
-.menu > .in{
-	width:100%;
-	height:15%;
-	background-color:#FFF;
-	background-image:url(../img/menu/menu_in.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-	display:block;
+.menu > .in {
+	width: 100%;
+	height: 20%;
+	background-color: #FFF ;
+	background-image: url(../image/LOGO.jpg);
+	background-size:270px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
 }
-
-.menu > .down{
-	width:100%;
-	height:13%;
-	display:block;
-	background-color:#FFF;
-	background-image:url(../img/menu/menu_down.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-	text-indent:-9999px;
+.in a {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
-	
-.menu_p{
-	width:100%;
-	height:9%;
-	display:block;
-	text-indent:-9999px;
-	
+.menu > .down {
+	width: 100%;
+	height: 13%;
+	display: block;
+	background-color: #FFF;
+	background-image: url(../img/menu/menu_down.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
 }
-	
-.p1{
-	background-color:#e24f4f;
-	background-image:url(../img/menu/page/menu_p1.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.menu_p {
+	width: 100%;
+	height: 9%;
+	display: block;
+    text-indent: -9999px;
+	background-size:270px;
 }
-	
-.p2{
-	background-color:#e58850;
-	background-image:url(../img/menu/page/menu_p2.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p1 {
+	background-color: #FFF;
+	background-image: url(../image/m1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-	
-.p3{
-	background-color:#e8a542;
-	background-image:url(../img/menu/page/menu_p3.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p2 {
+	background-color: #FFF;
+	background-image: url(../image/m2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-	
-.p4{
-	background-color:#50c092;
-	background-image:url(../img/menu/page/menu_p4.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p3 {
+	background-color: #FFF;
+	background-image: url(../image/m3.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-	
-.p5{
-	background-color:#4f9be2;
-	background-image:url(../img/menu/page/menu_p5.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p4 {
+	background-color: #FFF;
+	background-image: url(../image/m4.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-	
-.p6{
-	background-color:#576aae;
-	background-image:url(../img/menu/page/menu_p6.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p5 {
+	background-color: #FFF;
+	background-image: url(../image/m5.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-	
-.p7{
-	background-color:#8657ae;
-	background-image:url(../img/menu/page/menu_p7.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p6 {
+	background-color: #FFF;
+	background-image: url(../image/m6.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-	
-.p8{
-	background-color:#d56b8a;
-	background-image:url(../img/menu/page/menu_p8.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p7 {
+	background-color: #FFF;
+	background-image: url(../image/m7.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-
+.p8 {
+	background-color: #FFF;
+	background-image: url(../image/m8.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 /*menu的收納選單*/
-.menu > ul > li > a{
-	width:100%;
-	height:9vh;
-	display:block;
-	color:#FFF;
-	text-decoration:none;
-	text-align:center;
-	line-height:9vh;
-	font-size:22px;
-	font-family:"微軟正黑體";
+.menu > ul > li > a {
+	width: 100%;
+	height: 9vh;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 9vh;
+	font-size: 22px;
+	font-family: "微軟正黑體";
 }
-	
-.p1_slide{
-	margin:0;
-	padding:0;
-	width:100%;
-	height:27%;
-	background-color:#e67070;
+.p1_slide {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 27%;
+	background-color: #f09d3d;
 	display: none;
 }
-	
-.p2_slide{
-	margin:0;
-	padding:0;
-	width:100%;
-	height:63%;
-	background-color:#e8a278;
+.p2_slide {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 9%;
+	background-color: #e8a278;
 	display: none;
 }
-		
-.p3_slide{
-	margin:0;
-	padding:0;
-	width:100%;
-	height:54%;
-	background-color:#e9b56a;
+.p3_slide {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 9%;
+	background-color: #e9b56a;
 	display: none;
 }
-	
-.p4_slide{
-	margin:0;
-	padding:0;
-	width:100%;
-	height:27%;
-	background-color:#8bd5b7;
+.p4_slide {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 9%;
+	background-color: #8bd5b7;
 	display: none;
 }
-
-.p1_slide a:hover{background-color:#e24f4f;}
-.p2_slide a:hover{background-color:#e58850;}
-.p3_slide a:hover{background-color:#e8a542;}	
-.p4_slide a:hover{background-color:#50c092;}
-
+.p1_slide a:hover {
+	background-color: #FFF;
+}
+.p2_slide a:hover {
+	background-color: #FFF;
+}
+.p3_slide a:hover {
+	background-color: #FFF;
+}
+.p4_slide a:hover {
+	background-color: #FFF;
+}
 /*主角人物的對話框*/
 .dialog02{background-image:url(../img/dialog/slide02_dialog.png);}
 .dialog05{background-image:url(../img/dialog/slide05_dialog.png);}
