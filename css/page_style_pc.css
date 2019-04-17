@@ -1686,7 +1686,7 @@ p{padding:0; margin:0;}
 	
 /*第一層的雲*/
 .section > .cloud{
-	background-image:url(../img/cloud/scn01_cloud.png);
+	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	margin:auto;
