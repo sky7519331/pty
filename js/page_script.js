@@ -1,8 +1,8 @@
 $(document).ready(function () {
 	
 	//頛匧�亙��鐤�㙈摮睃�硋�𦯀辣���遆�彍
-	createFullpage();	
-
+	createFullpage();
+    
 	//�攟撟訫祝摨�
 	var screenwidth = $(window).width();
 	var first_screenwidth = $(window).width();
@@ -12,11 +12,11 @@ $(document).ready(function () {
 	//�攟撟閖�睃漲
 	var screenheight = $(window).height();
 	var first_screenheight = $(window).height();
-	
+    
 	//�ế�𪃾�糓�炏�箄���閗�萘蔭���
 	var ismobile = false;
 	
-	//銝���见�贝�匧�交��菜葫�糓�鍂獢䔶�𠰴�贝�萘蔭��𡝗糓銵��閗�萘蔭
+	//銝���见�贝�匧�交��ế�𪃾�糓雿輻鍂獢䔶�𠰴�贝�萘蔭��𡝗糓銵��閗�萘蔭
 	if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
 	{	
 		//alert("�蹱糓銵��閗�萘蔭");
@@ -28,7 +28,8 @@ $(document).ready(function () {
 		}
 		else
 		{
-			createFullpage();	
+            $.fn.fullpage.reBuild();
+            createFullpage();	
 			effect();
 		}	
 	}
@@ -43,10 +44,10 @@ $(document).ready(function () {
 		}
 		else
 		{
+            $.fn.fullpage.reBuild();
 			createFullpage();	
 			effect();
 		}
-		
 	}
 	
 	
@@ -72,13 +73,13 @@ $(document).ready(function () {
 		if(window.orientation == 0) //鋆萘蔭�箇凒���
   		{
     		//alert("�凒���");
-			console.log("�凒���");
+			//console.log("�凒���");
 			landscape = false;
   		}
   		else
   		{
     		//alert("��㕑府�糓璈怠��");
-			console.log("璈怠��");
+			//console.log("璈怠��");
 			landscape = true;
   		}
 		
@@ -91,7 +92,7 @@ $(document).ready(function () {
 		
 		screenheight = $(window).height();
 		
-		console.log('�攟撟訫祝摨佗��'+screenwidth+'�攟撟閖�睃漲:'+screenheight);
+		//console.log('�攟撟訫祝摨佗��'+screenwidth+'�攟撟閖�睃漲:'+screenheight);
 		
 		//�銁獢䔶�𠰴�贝�萘蔭�讛汗
 		if(ismobile == false)
@@ -122,6 +123,7 @@ $(document).ready(function () {
 				}
 				else
 				{
+                    $.fn.fullpage.reBuild();
 					createFullpage();
 					effect();
 					return;
@@ -134,8 +136,6 @@ $(document).ready(function () {
 		{
 			decidescreen();
 		}
-		
-		
 	});
 	
 	
@@ -152,6 +152,7 @@ $(document).ready(function () {
 			else
 			{
 				//憭扳䲰1024px����齿鰵�鐤�㙈�遆�彍
+                $.fn.fullpage.reBuild();
 				createFullpage();
 				effect();
 			}
@@ -210,7 +211,8 @@ $(document).ready(function () {
 			//��閗ㄐ瘥誩�钅��𢒰��撠滩店獢�
 			switch(slideIndex)
 			{
-				case 1:
+				//蝚砌�屸�
+                case 1:
 				$('.dialog').addClass('dialog02');
 				$('.dialog').removeClass('dialog03');
 				$('.dialog').removeClass('dialog04');
@@ -220,6 +222,7 @@ $(document).ready(function () {
 				$('.dialog').removeClass('dialog08');
 				break;
 				
+                //蝚砌�厰�
 				case 2:
 				$('.dialog').addClass('dialog03');
 				$('.dialog').removeClass('dialog02');
@@ -230,6 +233,7 @@ $(document).ready(function () {
 				$('.dialog').removeClass('dialog08');
 				break;
 				
+                //蝚砍�偦�    
 				case 3:
 				$('.dialog').addClass('dialog04');
 				$('.dialog').removeClass('dialog02');
@@ -240,6 +244,7 @@ $(document).ready(function () {
 				$('.dialog').removeClass('dialog08');
 				break;
 				
+                //蝚砌�娪�
 				case 4:
 				$('.dialog').addClass('dialog05');
 				$('.dialog').removeClass('dialog02');
@@ -250,6 +255,7 @@ $(document).ready(function () {
 				$('.dialog').removeClass('dialog08');
 				break;
 				
+                //蝚砍�剝�    
 				case 5:
 				$('.dialog').addClass('dialog06');
 				$('.dialog').removeClass('dialog02');
@@ -260,6 +266,7 @@ $(document).ready(function () {
 				$('.dialog').removeClass('dialog08');
 				break;
 				
+                //蝚砌���    
 				case 6:
 				$('.dialog').addClass('dialog07');
 				$('.dialog').removeClass('dialog02');
@@ -270,6 +277,7 @@ $(document).ready(function () {
 				$('.dialog').removeClass('dialog08');
 				break;
 				
+                //蝚砍�恍�
 				case 7:
 				$('.dialog').addClass('dialog08');
 				$('.dialog').removeClass('dialog02');
@@ -291,9 +299,9 @@ $(document).ready(function () {
 				break;
 			}
 			
-			console.log(slideIndex);
+			//console.log(slideIndex);
 			
-			//皛穃�訫�瘞游像蝚砌�屸�
+			//皛穃�訫�蝚砌��惜��蝚砌�屸�
 			if(slideIndex===1)
 			{
 				if(screenwidth >= 769)
@@ -304,7 +312,7 @@ $(document).ready(function () {
 				}
 			}
 			
-			//皛穃�訫�瘞游像蝚砌�厰�
+			//皛穃�訫�蝚砌��惜��蝚砌�厰�
 			if(slideIndex===2)
 			{
 			
@@ -338,7 +346,7 @@ $(document).ready(function () {
 				},2500);					
 			}
 			
-			//皛穃�訫�瘞游像蝚砌�娪�
+			//皛穃�訫�蝚砌��惜��蝚砌�娪�
 			if(slideIndex===4)
 			{
 				$('.car').css('opacity','1');
@@ -349,7 +357,7 @@ $(document).ready(function () {
 				$('.car').css('margin-left','100vw');
 			}
 			
-			//皛穃�訫�瘞游像蝚砌���
+			//皛穃�訫�蝚砌��惜��蝚砌���
 			if(slideIndex===6)
 			{
 				$('.bus').css('opacity','1');
@@ -370,7 +378,7 @@ $(document).ready(function () {
 			var slideheight = $('.slide').height();
 			var leadertop = slideheight * 0.6;
             
-			//皛穃�蝚砌��惜��嚗䔶蜓閫鍦�硺�𢠃𢒰��劐�衤�嚗䔶蒂�枂�𣶹撠滩店獢�
+			//皛穃�蝚砌��惜��嚗䔶蜓閫鍦�噼攟撟蓥�𦠜䲮��劐�衤�嚗䔶蒂�枂�𣶹撠滩店獢�
 			if (nextIndex == 2) {
 				
 				$('.leader').css('opacity','1');
@@ -380,6 +388,7 @@ $(document).ready(function () {
 					$('.dialog').addClass('fadeIn');	
 				});
 				
+                //footer�枂�𣶹
 				$('footer').css('display','block');
 				
 			}
@@ -401,7 +410,7 @@ $(document).ready(function () {
 					{
                         loaded = false;
                         var delta = e.originalEvent.deltaY;
-                        console.log(delta);
+                        //console.log(delta);
                         
                         if(delta>0)//down
 						{ 
@@ -487,6 +496,7 @@ $(document).ready(function () {
 
 
 
+
 	//�詨鱓撅閖��
 	$('.menu_btn').click(function(){
 		$('.menu').animate({left:"0"}, 500);	
@@ -496,19 +506,15 @@ $(document).ready(function () {
 	$('.main').click(function(){
 		$('.menu').animate({left:"-400px"}, 500);
 	});
-	$('.mainbox').click(function(){
-		$('.menu').animate({left:"-280px"}, 500);
-	});
-
 	
-
+    //��睲�𧢲䔝蝝�
 	$('.click').addClass('bounce');
 	
 	$('.click').click(function(){
 		
 		if(screenwidth < 769)
 		{
-			 $('html,body').animate({scrollTop:$('.slide_01').offset().top}, 800); 
+            $('html,body').animate({scrollTop:$('.slide_01').offset().top}, 800); 
 		}
 		else
 		{
@@ -586,17 +592,13 @@ $(document).ready(function () {
 		$('.p4_slide').css('display','none');
 	});
 	
-	//蝚砌����� Button Tab forcus
-	$('.slide_01 .main_obj .btn01').focus(function() {
-		$('.menu').css('left','-400px');	
-	});
+	//蝚砌����� Button Tab Forcus
+	$('.slide_01 .main_obj .btn01').focus(function() {$('.menu').css('left','-400px');});
 	
-	//蝚砌�屸��� Button Tab forcus
-	$('.slide_02 .btn01').focus(function() {
-		$('.slide_02 > .main_obj').css('opacity','1');
-	});
+	//蝚砌�屸��� Button Tab Forcus
+	$('.slide_02 .btn01').focus(function() {$('.slide_02 > .main_obj').css('opacity','1');});
 	
-	//蝚砌�厰��� Button Tab forcus
+	//蝚砌�厰��� Button Tab Forcus
 	$('.sb02').focus(function() {
 		$('.sb01').css('opacity','1');
 		$('.sb02').css('opacity','1');
@@ -605,6 +607,5 @@ $(document).ready(function () {
 		$('.sb05').css('opacity','1');
 		$('.sb06').css('opacity','1');
 	});
-	
 	
 });

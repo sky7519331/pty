@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-size:contain;
+}
+/*=============== header ===============*/
+header {
+	background-image: url(../image/bg.jpg);
+	
+	background-size: contain;
+}
+.headimg{
+	background-image: url(../img/pages/chara_p1.png);
+    width: 270px;
+    height: 425px;
+    margin-right: -470px;
+}
+/*=============== header end ===============*/
+
+/*=============== 右邊內容區 ===============*/
+.content {
+    background-color: #f46c79;
+    background-alpha : 0.8;
+}
+h2{
+    color: #197508;
+}
+h2:before {
+    background-image: url(../img/pages/h2icon_p1.png); 
+}
+.font_typ1{
+    font-weight: bold;
+    color: #e24f4f;
+}
+.conbox a{
+    background-color: #247fb1;
+    color: #fff;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 #1f6191;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    margin: 0px 0 4px 0;
+}
+.conbox a:hover{
+    margin: 4px 0 0px 0;
+    box-shadow: 0 0px 0 #e5a10e;
+}
+.conbox a{
+    display: block;
+    text-align: center;
+    margin: 5px 0 15px 0;
+}
+.conbox a:hover{
+    margin: 9px 0 11px 0;
+}
+.ultyp1 li{
+    margin-left: 16px;
+}
+.ultyp1 li:before{
+    content: "▸";
+    display: inline-block;
+    margin-left: -16px;
+    color: #e24f4f;
+}
+.conbox p img{
+    max-width: 500px;
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+}
+/*=============== 右邊內容區 end ===============*/
+/*=============== 麵包屑 ===============*/
+
+/*=============== 麵包屑 end ===============*/
+
+/*=============== 選單 ===============*/
+.p6:after {
+    content: "";
+    display: block;
+    position: relative;
+    right: -270px;
+    width: 10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #e24f4f;
+}
+/*=============== 選單 end ===============*/
+/*=============== 子選單 ===============*/
+
+/*=============== 子選單 end ===============*/
+/*=============== footer ===============*/
+footer:before{
+    background-image: url(../img/pages/footerimg_1.png);
+    width: 78px;
+    height: 100px;
+    margin-top: -60px;
+}
+footer div p {padding: 15px 5%;}
+/*=============== footer end ===============*/
+
+/*=============== RWD RWD RWD ===============*/
+
+/*1280以下*/
+@media screen and (max-width: 1280px) {
+    .headimg{
+        width: 200px;
+        height: 270px;
+        margin-right: -390px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .headimg{
+        margin-right: -300px;
+    }
+}
+
+/*768以下*/
+@media screen and (max-width: 768px){
+    .headimg{
+        margin-right: -250px;
+    }
+}
+
+/*640以下*/
+@media screen and (max-width: 640px){
+    .headimg{display: none;}
+    header{background-position: 25%;}
+}
+
+/*480以下*/
+@media screen and (max-width: 480px){
+    header{background-position: 32%;}
+    
+}

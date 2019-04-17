@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*fadeInDown*/
+@-webkit-keyframes fadeInDown {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      -moz-transform: translate3d(0, -100%, 0);
+      -o-transform: translate3d(0, -100%, 0);
+      -ms-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      -moz-transform: translate3d(0, -100%, 0);
+      -o-transform: translate3d(0, -100%, 0);
+      -ms-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+      opacity: 1;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -o-transform: none;
+      -ms-transform: none;
+      transform: none;
+  }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    -ms-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+	-webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+/*bounce*/
+@-webkit-keyframes bounce {
+  from, 20%, 53%, 80%, to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -moz-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -o-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -ms-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -webkit-transform: translate3d(0,0,0);
+      -moz-transform: translate3d(0,0,0);
+      -o-transform: translate3d(0,0,0);
+      -ms-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -moz-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -o-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -ms-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -30px, 0);
+      -moz-transform: translate3d(0, -30px, 0);
+      -o-transform: translate3d(0, -30px, 0);
+      -ms-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -moz-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -o-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -ms-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -15px, 0);
+      -moz-transform: translate3d(0, -15px, 0);
+      -o-transform: translate3d(0, -15px, 0);
+      -ms-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+      -webkit-transform: translate3d(0,-4px,0);
+      -moz-transform: translate3d(0,-4px,0);
+      -o-transform: translate3d(0,-4px,0);
+      -ms-transform: translate3d(0,-4px,0);
+      transform: translate3d(0,-4px,0);
+  }
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -moz-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -o-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -ms-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -webkit-transform: translate3d(0,0,0);
+      -moz-transform: translate3d(0,0,0);
+      -o-transform: translate3d(0,0,0);
+      -ms-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -moz-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -o-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -ms-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -30px, 0);
+      -moz-transform: translate3d(0, -30px, 0);
+      -o-transform: translate3d(0, -30px, 0);
+      -ms-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -moz-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -o-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -ms-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -15px, 0);
+      -moz-transform: translate3d(0, -15px, 0);
+      -o-transform: translate3d(0, -15px, 0);
+      -ms-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+      -webkit-transform: translate3d(0,-4px,0);
+      -moz-transform: translate3d(0,-4px,0);
+      -o-transform: translate3d(0,-4px,0);
+      -ms-transform: translate3d(0,-4px,0);
+      transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    -moz-animation-name: bounce;
+    -o-animation-name: bounce;
+    -ms-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+    animation-iteration-count:infinite;
+}
+
+/*fadeIn*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    -ms-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*Effect of the website page*/
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*cloud in the sky*/
+@-webkit-keyframes cloud_move{
+	0% { left:0%; }
+	100% { left:-100%; }	
+}
+
+@keyframes cloud_move{
+	0% { left:0%; }
+	100% { left:-100%; }	
+}
+
+/*In the page 05, the building light flash*/
+@-webkit-keyframes obj05_flash{
+	from { background-position:0px 0px; }
+	to { background-position:-1307px 0px; }			
+}
+
+@keyframes obj05_flash{
+	from { background-position:0px 0px; }
+	to { background-position:-1307px 0px; }			
+}
+
+/*In the page 07, Marquee*/
+@-webkit-keyframes marquee {
+  	0% { left: 100%; }
+  	100% { left: -130%; }
+}
+
+@keyframes marquee {
+  	0% { left: 100%; }
+  	100% { left: -130%; }
+}
+
+/*In the page 08, Ferris wheel rotation*/
+@-webkit-keyframes ferris_wheel_rotate{
+	from{ background-position:0px 0px; }
+	to{ background-position:-9891px 0px; }
+}
+
+@keyframes ferris_wheel_rotate{
+	from{ background-position:0px 0px; }
+	to{ background-position:-9891px 0px; }
+}
+
+/*In the page 08, firework*/
+@-webkit-keyframes zoomOut {
+	from { opacity: 0; }
+	50% { 
+		opacity: 0;
+		-webkit-transform: scale3d(.3, .3, .3);
+        -moz-transform: scale3d(.3, .3, .3);
+        -o-transform: scale3d(.3, .3, .3);
+        -ms-transform: scale3d(.3, .3, .3);
+		transform: scale3d(.3, .3, .3);
+	}
+	80%{ opacity:1; }
+	95%{ opacity:0.5; }
+  	to{ opacity: 0; }
+}
+
+@keyframes zoomOut {
+	from { opacity: 0; }
+	50% { 
+		opacity: 0;
+		-webkit-transform: scale3d(.3, .3, .3);
+        -moz-transform: scale3d(.3, .3, .3);
+        -o-transform: scale3d(.3, .3, .3);
+        -ms-transform: scale3d(.3, .3, .3);
+		transform: scale3d(.3, .3, .3);
+	}
+	80%{ opacity:1; }
+	95%{ opacity:0.5; }
+  	to{ opacity: 0; }
+}
+
+/*Leader walking*/
+.ani_right{
+	background-image:url(../img/lead_animation_right.png);
+	-webkit-animation:run_right 0.5s steps(12) infinite;
+    -moz-animation:run_right 0.5s steps(12) infinite;
+    -o-animation:run_right 0.5s steps(12) infinite;
+    -ms-animation:run_right 0.5s steps(12) infinite;
+    animation:run_right 0.5s steps(12) infinite;
+}
+
+.ani_left{
+	background-image:url(../img/lead_animation_left.png);
+    -webkit-animation:run_left 0.5s steps(12) infinite;
+    -moz-animation:run_left 0.5s steps(12) infinite;
+    -o-animation:run_left 0.5s steps(12) infinite;
+    -ms-animation:run_left 0.5s steps(12) infinite;
+	animation:run_left 0.5s steps(12) infinite;
+}
+
+@-webkit-keyframes run_right {
+  from { background-position: 0px 0px; }
+  to { background-position: -2892px 0px; }
+}
+
+@-webkit-keyframes run_left {
+  from { background-position: 0px 0px; }
+  to { background-position: -2892px 0px; }
+}
+
+@keyframes run_right {
+  from { background-position: 0px 0px; }
+  to { background-position: -2892px 0px; }
+}
+
+@keyframes run_left {
+  from { background-position: 0px 0px; }
+  to { background-position: -2892px 0px; }
+}

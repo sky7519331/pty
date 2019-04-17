@@ -1,0 +1,3512 @@
+@charset "utf-8";
+
+li{list-style-type: none;}
+
+/*背景*/
+.section{
+	background-color: #6dc0e8;
+	background-size:auto;
+	background-repeat:no-repeat;
+}
+
+/*第一頁的按鈕*/
+.slide_01 .main_obj .btn01{background-image:url(../img/button/01/slide01_btn01.png);}
+.slide_01 .main_obj .btn02{background-image:url(../img/button/01/slide01_btn02.png);}
+.slide_01 .main_obj .btn03{background-image:url(../img/button/01/slide01_btn03.png);}
+
+.slide_01 .main_obj .btn01:hover{background-image:url(../img/button/01/slide01_btn01_h.png);}
+.slide_01 .main_obj .btn02:hover{background-image:url(../img/button/01/slide01_btn02_h.png);}
+.slide_01 .main_obj .btn03:hover{background-image:url(../img/button/01/slide01_btn03_h.png);}
+
+/*第二頁的按鈕*/
+.slide_02 .main_obj .btn01{background-image:url(../img/button/02/slide02_btn01.png);}
+.slide_02 .main_obj .btn02{background-image:url(../img/button/02/slide02_btn02.png);}
+.slide_02 .main_obj .btn03{background-image:url(../img/button/02/slide02_btn03.png);}
+.slide_02 .main_obj .btn04{background-image:url(../img/button/02/slide02_btn04.png);}
+.slide_02 .main_obj .btn05{background-image:url(../img/button/02/slide02_btn05.png);}
+.slide_02 .main_obj .btn06{background-image:url(../img/button/02/slide02_btn06.png);}
+.slide_02 .main_obj .btn07{background-image:url(../img/button/02/slide02_btn07.png);}
+
+.slide_02 .main_obj .btn01:hover{background-image:url(../img/button/02/slide02_btn01_h.png);}
+.slide_02 .main_obj .btn02:hover{background-image:url(../img/button/02/slide02_btn02_h.png);}
+.slide_02 .main_obj .btn03:hover{background-image:url(../img/button/02/slide02_btn03_h.png);}
+.slide_02 .main_obj .btn04:hover{background-image:url(../img/button/02/slide02_btn04_h.png);}
+.slide_02 .main_obj .btn05:hover{background-image:url(../img/button/02/slide02_btn05_h.png);}
+.slide_02 .main_obj .btn06:hover{background-image:url(../img/button/02/slide02_btn06_h.png);}
+.slide_02 .main_obj .btn07:hover{background-image:url(../img/button/02/slide02_btn07_h.png);}
+
+/*第四頁的按鈕*/
+.slide_04 .btn01{
+	background-image:url(../img/button/04/slide04_btn01.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+	
+.slide_04 .btn02{
+	background-image:url(../img/button/04/slide04_btn02.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+	
+.slide_04 .btn03{
+	background-image:url(../img/button/04/slide04_btn03.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+	
+.slide_04 .btn01:hover{background-image:url(../img/button/04/slide04_btn01_h.png);}
+.slide_04 .btn02:hover{background-image:url(../img/button/04/slide04_btn02_h.png);}
+.slide_04 .btn03:hover{background-image:url(../img/button/04/slide04_btn03_h.png);}
+
+/*menu選單的元素*/
+.menu > .in{
+	width:100%;
+	height:15%;
+	background-color:#FFF;
+	background-image:url(../img/menu/menu_in.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:block;
+}
+
+.menu > .down{
+	width:100%;
+	height:13%;
+	display:block;
+	background-color:#FFF;
+	background-image:url(../img/menu/menu_down.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+}
+	
+.menu_p{
+	width:100%;
+	height:9%;
+	display:block;
+	text-indent:-9999px;
+	
+}
+	
+.p1{
+	background-color:#e24f4f;
+	background-image:url(../img/menu/page/menu_p1.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+.p2{
+	background-color:#e58850;
+	background-image:url(../img/menu/page/menu_p2.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+.p3{
+	background-color:#e8a542;
+	background-image:url(../img/menu/page/menu_p3.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+.p4{
+	background-color:#50c092;
+	background-image:url(../img/menu/page/menu_p4.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+.p5{
+	background-color:#4f9be2;
+	background-image:url(../img/menu/page/menu_p5.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+.p6{
+	background-color:#576aae;
+	background-image:url(../img/menu/page/menu_p6.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+.p7{
+	background-color:#8657ae;
+	background-image:url(../img/menu/page/menu_p7.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+	
+.p8{
+	background-color:#d56b8a;
+	background-image:url(../img/menu/page/menu_p8.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+/*menu的收納選單*/
+.menu > ul > li > a{
+	width:100%;
+	height:9vh;
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	text-align:center;
+	line-height:9vh;
+	font-size:22px;
+	font-family:"微軟正黑體";
+}
+	
+.p1_slide{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:27%;
+	background-color:#e67070;
+	display: none;
+}
+	
+.p2_slide{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:63%;
+	background-color:#e8a278;
+	display: none;
+}
+		
+.p3_slide{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:54%;
+	background-color:#e9b56a;
+	display: none;
+}
+	
+.p4_slide{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:27%;
+	background-color:#8bd5b7;
+	display: none;
+}
+
+.p1_slide a:hover{background-color:#e24f4f;}
+.p2_slide a:hover{background-color:#e58850;}
+.p3_slide a:hover{background-color:#e8a542;}	
+.p4_slide a:hover{background-color:#50c092;}
+
+/*主角人物的對話框*/
+.dialog02{background-image:url(../img/dialog/slide02_dialog.png);}
+.dialog05{background-image:url(../img/dialog/slide05_dialog.png);}
+
+p{padding:0; margin:0;}
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*電腦版的共通*/
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+@media screen and (min-width: 1025px){
+	
+    /*草地*/	
+    .meadow{
+        background-color: #7eba41;
+        width: 100%;
+        height: 21%;
+        position:absolute;
+        bottom:0;
+        z-index:0;
+    }
+    
+    /*首頁第一層*/
+    .section_01{
+        box-sizing:border-box;
+        text-align:center;
+        padding-top:50px;
+    }
+    
+    /*前往下一頁(第二層)*/	
+    .click{
+        background-image:url(../img/click.png);
+        width:33px;
+        height:48px;
+        position:absolute;
+        left:calc((100vw - 33px)/2);
+        bottom:8%;
+        display:block;
+        text-indent:-9999px;
+    }
+    
+	/*第二層背景的雲朵*/
+    .cloud_box{
+        width:800vw;
+        height:401px;
+        position:absolute;
+        z-index:-5;
+    }
+
+    .bg_cloud{
+        background-image:url(../img/bg_cloud_s.png);
+        width:calc(13247 * 2px);
+        height:401px;
+        position:absolute;
+
+        -webkit-animation: cloud_move 200s linear infinite;
+        -moz-animation: cloud_move 200s linear infinite;
+        -o-animation: cloud_move 200s linear infinite;
+        -ms-animation: cloud_move 200s linear infinite;
+        animation: cloud_move 200s linear infinite;
+    }
+    
+    /*每一頁的背景城市圖(-4)*/	
+    .slide > .city{
+        background-repeat:no-repeat;
+        background-position:top;
+        background-size:100%;
+        position:absolute;
+        z-index:-4;
+        bottom:21%;
+    }
+    
+    /*每一頁的背景物件(-3)*/
+    .slide > .obj{
+        background-repeat:no-repeat;
+        background-position:top;
+        background-size:cover;
+        position:absolute;
+        z-index:-3;
+        bottom:21%;
+	}
+    
+    /*每一頁的樹木*/
+    .slide > .tree{
+	   background-repeat:no-repeat;
+	   background-position:top;
+	   background-size:100%;
+	   position:absolute;
+	   z-index:-2;
+	}
+    
+    /*每一頁的主要建築物*/	
+    .slide > .main_b{
+	   background-repeat:no-repeat;
+	   background-position:top;
+	   background-size:100%;
+	   position:absolute;
+	   z-index:-1;
+	}
+    
+    /*每一頁的花朵人物*/
+    .slide > .people{
+        background-repeat:no-repeat;
+        background-position:top;
+        background-size:100%;
+        position:absolute;
+        z-index:5;
+    }
+    
+    /*每一頁的地上草叢*/
+    .slide > .grass{
+	   background-repeat:no-repeat;
+	   background-position:top;
+	   background-size:100%;
+	   position:absolute;
+	   z-index:6;
+	}
+    
+/*每一頁的主要元件*/
+/*第一頁 - 按鈕*/
+    .slide_01 > .main_obj{
+	   background-image:url(../img/main_obj/slide01_mainobj.png);
+	   background-repeat:no-repeat;
+	   width:208px;
+	   height:398px;
+	   margin:calc(79vh - 398px) auto auto 35vw;
+	}
+    
+    .slide_01 > .main_obj > ul{
+        width:152px;
+        padding:130px 0 0 0;
+        margin:auto;
+	}
+
+    .slide_01 .main_obj a{
+        display: block;
+        width:152px;
+        height:54px;
+        margin:10px auto 10px auto;
+        text-indent:-9999px;
+    }
+    
+/*第二頁 - 黑板自動浮現*/
+    .slide_02 > .main_obj{
+        background-image:url(../img/main_obj/slide02_mainobj.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        opacity: 0;
+    }
+    
+    .slide_02 .main_obj a{
+        background-repeat:no-repeat;
+        background-size:contain;
+        text-indent:-9999px;
+        display:block;
+        float:left;
+    }
+    
+/*第三頁 - 自動浮現對話框*/
+    .slide_03 > .main_obj{
+        background-image:url(../img/main_obj/slide03_mainobj.png);
+        width:915px;
+        height:766px;
+        margin:calc(85vh - 766px) auto auto auto;
+        padding-top:150px;
+        box-sizing: border-box;
+    }
+    
+    .slide_03 > .main_obj > ul{padding:0;}
+    
+    .slide_03 .main_obj .box:nth-child(1){
+        width:100%;
+        height:160px;
+        margin:auto;
+    }
+
+    .slide_03 .main_obj .box:nth-child(2){
+        width:100%;
+        height:170px;
+        margin:auto;
+    }
+
+    .slide_03 .main_obj a{
+        display:block;
+        float:left;
+        text-indent:-9999px;
+    }
+
+    .slide_03 .main_obj .btn01{
+        background-image:url(../img/button/03/slide03_btn01.png);
+        width:150px;
+        height:144px;
+        margin-left:130px;
+        opacity:0;
+    }
+
+    .slide_03 .main_obj .btn02{
+        background-image:url(../img/button/03/slide03_btn02.png);
+        width:138px;
+        height:159px;
+        margin-left:30px;
+        opacity:0;
+    }
+
+    .slide_03 .main_obj .btn03{
+        background-image:url(../img/button/03/slide03_btn03.png);
+        width:138px;
+        height:149px;
+        margin-left:30px;
+        opacity:0;
+    }
+
+    .slide_03 .main_obj .btn04{
+        background-image:url(../img/button/03/slide03_btn04.png);
+        width:142px;
+        height:138px;
+        margin-left:30px;
+        opacity:0;
+    }
+
+    .slide_03 .main_obj .btn05{
+        background-image:url(../img/button/03/slide03_btn05.png);
+        width:188px;
+        height:165px;
+        margin-right:350px;
+        margin-left:100px;
+        opacity:0;
+    }
+
+    .slide_03 .main_obj .btn06{
+        background-image:url(../img/button/03/slide03_btn06.png);
+        width:159px;
+        height:139px;
+        opacity:0;
+    }
+    
+    .slide_03 .main_obj .btn01:hover{background-image:url(../img/button/03/slide03_btn01_h.png);}
+    .slide_03 .main_obj .btn02:hover{background-image:url(../img/button/03/slide03_btn02_h.png);}
+    .slide_03 .main_obj .btn03:hover{background-image:url(../img/button/03/slide03_btn03_h.png);}
+    .slide_03 .main_obj .btn04:hover{background-image:url(../img/button/03/slide03_btn04_h.png);}
+    .slide_03 .main_obj .btn05:hover{background-image:url(../img/button/03/slide03_btn05_h.png);}
+    .slide_03 .main_obj .btn06:hover{background-image:url(../img/button/03/slide03_btn06_h.png);}
+    
+/*第四頁 - 選單按鈕*/
+    .slide_04 > .main_obj{
+        background-image:url(../img/main_obj/slide04_mainobj.png);
+        background-repeat:no-repeat;
+        width:834px;
+        height:558px;
+        margin:calc(79vh - 558px) auto auto auto;
+        padding-top:100px;
+        box-sizing: border-box;
+    }
+    
+    .slide_04 > .main_obj > span{
+        display:block;
+        background-image:url(../img/object/slide_04_title.png);
+        width:416px;
+        height:75px;
+        margin:auto;
+    }
+
+    .slide_04 .main_obj ul{
+        padding:20px 0 0 0;
+        width:459px;
+        height:180px;
+        margin:auto;
+    }
+
+    .slide_04 a{
+        width:135px;
+        height:180px;
+        display: inline-block;
+        float:left;
+        margin:auto 9px auto 9px;
+        text-indent:-9999px;
+    }
+    
+/*第五頁*/
+   .slide_05 > .main_obj{
+        background-image:url(../img/main_obj/slide05_mainobj.png);
+        width:1021px;
+        height:475px;
+        margin:calc(83vh - 475px) auto auto auto;
+        display:block;
+        text-indent:-9999px;
+        box-sizing: border-box;
+	}
+
+    .car{
+        background-image:url(../img/car.png);
+        width:466px;
+        height:170px;
+        z-index:6;
+        position:absolute;
+        margin:calc(83vh - 170px) auto auto 100vw;
+        opacity:0;
+    }
+    
+/*第六頁*/
+    .slide_06 > .main_obj{
+        background-image:url(../img/main_obj/slide06_mainobj.png);
+        width:653.5px;
+        height:409px;
+        margin:calc(79vh - 409px) auto auto auto;
+        display:block;
+        text-indent:-99999px;
+
+        -webkit-animation:obj05_flash 1s steps(2) infinite;
+        -moz-animation:obj05_flash 1s steps(2) infinite;
+        -o-animation:obj05_flash 1s steps(2) infinite;
+        -ms-animation:obj05_flash 1s steps(2) infinite;
+        animation:obj05_flash 1s steps(2) infinite;
+    }
+    
+/*第七頁 - 跑馬燈*/	
+    .slide_07 > .main_obj{
+        background-image:url(../img/main_obj/slide07_mainobj.png);
+        background-repeat:no-repeat;
+        width:585px;
+        height:568px;
+        margin:calc(79vh - 568px) auto auto 28vw;
+        display:block;
+        box-sizing: border-box;
+        text-indent:-99999px;
+    }
+    
+    .bus{
+        background-image:url(../img/bus.png);
+        width:770px;
+        height:353px;
+        position:absolute;
+        margin:calc(79vh - 353px) auto auto 100vw;
+        z-index:-1;
+        opacity:0;
+    }
+    
+    .slide_07 > .main_obj > .marquee{
+        width:234px;
+        height:27px;
+        padding:10px;
+        margin:122px auto auto 332px;
+        overflow: hidden;
+        position:absolute;
+	}
+
+    .slide_07 > .main_obj > .marquee > div{	
+        display: block;
+        width: auto;
+        height:100%;
+        position: absolute;
+        overflow: hidden;
+
+        -webkit-animation: marquee 5s linear infinite;
+        -moz-animation: marquee 5s linear infinite;
+        -o-animation: marquee 5s linear infinite;
+        -ms-animation: marquee 5s linear infinite;
+        animation: marquee 5s linear infinite;
+	}
+    
+     .slide_07 > .main_obj > .marquee > div > span{
+        background-image:url(../img/main_obj/slide07_marquee.png);
+        width: 300px;
+        height:27px;
+        float: left;
+    }
+    
+/*第八頁*/
+    .slide_08 > .main_obj{
+        background-image:url(../img/main_obj/slide08_mainobj.png);
+        width:671px;
+        height:601px;
+        display:block;
+        text-indent:-99999px;
+    }
+    
+    .ferris_wheel{
+        background-image:url(../img/Ferris_wheel.png);
+        width:471px;
+        height:512px;
+        position:absolute;
+        margin:calc(79vh - 512px) auto auto 60vw;
+        z-index:-1;
+        
+        -webkit-animation:ferris_wheel_rotate 10s steps(21) infinite;
+        -moz-animation:ferris_wheel_rotate 10s steps(21) infinite;
+        -o-animation:ferris_wheel_rotate 10s steps(21) infinite;
+        -ms-animation:ferris_wheel_rotate 10s steps(21) infinite;
+        animation:ferris_wheel_rotate 10s steps(21) infinite;
+    }
+    
+    .firework_01{
+        background-image:url(../img/firework_01.png);
+        width:131px;
+        height:131px;
+        float:left;
+        margin-left:50px;
+        
+        -webkit-animation:zoomOut 2s infinite;
+        -moz-animation:zoomOut 2s infinite;
+        -o-animation:zoomOut 2s infinite;
+        -ms-animation:zoomOut 2s infinite;
+        animation:zoomOut 2s infinite;
+    }
+    
+    .firework_02{
+        background-image:url(../img/firework_02.png);
+        width:179px;
+        height:179px;
+        float:left;
+        margin-left:190px;
+        
+        -webkit-animation:zoomOut 3s infinite;
+        -moz-animation:zoomOut 3s infinite;
+        -o-animation:zoomOut 3s infinite;
+        -ms-animation:zoomOut 3s infinite;
+        animation:zoomOut 3s infinite;
+    }
+
+    
+    
+    footer{
+		width:100%;
+		position:fixed;
+		bottom:0;
+		background-color:#516f33;
+		color:#FFF;
+		text-align:left;
+		line-height:25px;
+		padding:8px;
+		z-index:9;
+		font-family:"微軟正黑體";
+		display:none;
+	}
+	
+	.copyright_text{line-height:30px;}
+
+	.footer_box{
+		width:80%;
+		margin:auto;
+	}
+	
+	.footer_box > div{
+		width:800px;
+		margin:auto;
+	}
+	
+	.logo{
+		background-image:url(../img/logo.png);
+		background-size:contain;
+		width:30px;
+		height:30px;
+		float:left;
+		margin-right:10px;
+	}
+	
+}
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*螢幕大小大於1680px*/
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+@media screen and (min-width: 1680px){
+
+.title_img{
+	margin: auto;
+	width:812px;
+	height:800px;
+}
+	
+/*選單按鈕*/	
+.menu_btn{
+	display:block;
+	background-image:url(../img/menu_btn.png);
+	width:113px;
+	height:195px;
+	position:fixed;
+    right: 1.5%;
+	top:1.5%;
+	z-index:3;
+	text-indent:-9999px;
+}
+
+/*選單*/
+.menu{
+	width:400px;
+	height:100%;
+	position:fixed;
+	background-color:#FFF;
+	z-index:10;
+	left:-400px;
+}
+
+/*第一層的雲*/
+.section > .cloud{
+	background-image:url(../img/cloud/scn01_cloud.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin:auto;
+	width:1261px;
+	height:602px;
+}
+    
+/*網站地圖*/	
+.sitemap{
+	background-image:url(../img/sitemap.png);
+	margin:80px auto auto 1030px;
+	width:29px;
+	height:32px;
+	position:absolute;
+	display:block;
+	text-indent:-9999px;
+}
+
+/*每一頁的背景城市圖(-4)*/
+.slide_01 > .city{
+	background-image:url(../img/object/city/slide01_city.png);
+	width:1335px;
+	height:505px;
+}
+	
+.slide_02 > .city{
+	background-image:url(../img/object/city/slide03_city.png);
+	width:2307px;
+	height:505px;
+	left:11%;
+}
+	
+.slide_04 > .city{
+	background-image:url(../img/object/city/slide04_city.png);
+	width:1335px;
+	height:505px;
+	left:44%;
+}
+	
+.slide_05 > .city{
+	background-image:url(../img/object/city/slide05_city.png);
+	width:642px;
+	height:505px;
+	left:58%;
+}
+	
+.slide_06 > .city{
+	background-image:url(../img/object/city/slide06_city.png);
+	width:1335px;
+	height:505px;
+	left:72%;
+}
+
+/*每一頁的背景物件(-3)*/
+.slide_01 > .obj{
+	background-image:url(../img/object/obj/slide01_obj.png);
+	width:984px;
+	height:414px;
+	left:10%;
+}
+	
+.slide_03 > .obj{
+	background-image:url(../img/object/obj/slide03_obj.png);
+	width:1933px;
+	height:557px;
+	left:24%;
+}
+	
+.slide_06 > .obj{
+	background-image:url(../img/object/obj/slide06_obj.png);
+	width:735px;
+	height:289px;
+	left:66%;
+}
+	
+.slide_07 > .obj{
+	background-image:url(../img/object/obj/slide07_obj.png);
+	width:2181px;
+	height:414px;
+	left:80%;
+}
+
+/*每一頁的樹木*/	
+.slide_01 > .tree{
+	background-image:url(../img/object/tree/slide01_tree.png);
+	width:1060px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 50vw;
+}
+	
+.slide_02 > .tree{
+	background-image:url(../img/object/tree/slide02_tree.png);
+	width:344px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 80vw;
+}
+	
+.slide_03 > .tree{
+	background-image:url(../img/object/tree/slide03_tree.png);
+	width:681px;
+	height:412px;
+	margin:calc(79vh - 412px) auto auto 85vw;
+}
+	
+.slide_04 > .tree{
+	background-image:url(../img/object/tree/slide04_tree.png);
+	width:806px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 85vw;
+}
+	
+.slide_05 > .tree{
+	background-image:url(../img/object/tree/slide05_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 80vw;
+}
+	
+.slide_06 > .tree{
+	background-image:url(../img/object/tree/slide07_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 90vw;
+}
+	
+.slide_08 > .tree{
+	background-image:url(../img/object/tree/slide08_tree.png);
+	width:261px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 5vw;
+}
+	
+/*每一頁的主要建築物*/	
+.slide_01 > .main_b{
+	background-image:url(../img/main_Building/slide01_mainB.png);
+	width:543px;
+	height:504px;
+	margin:calc(79vh - 504px) auto auto 10vw;
+}
+	
+.slide_02 > .main_b{
+	background-image:url(../img/main_Building/slide02_mainB.png);
+	width:881px;
+	height:616px;
+	margin:calc(79vh - 616px) auto auto calc((100vw - 881px)/2);
+}
+	
+.slide_06 > .main_b{
+	background-image:url(../img/main_Building/slide06_mainB.png);
+	width:187px;
+	height:354px;
+	margin:calc(79vh - 354px) auto auto 15vw;
+}
+	
+/*每一頁的花朵人物*/
+.slide_01 > .people{
+	background-image:url(../img/people/slide01_people.png);
+	width:192px;
+	height:251px;
+	margin:calc(83vh - 251px) auto auto 50vw;
+}
+	
+.slide_02 > .people{
+	background-image:url(../img/people/slide02_people.png);
+	width:356px;
+	height:479px;
+	margin:calc(83vh - 479px) auto auto 72vw;
+}
+
+.slide_04 > .people{
+	background-image:url(../img/people/slide04_people.png);
+	width:309px;
+	height:403px;
+	margin:calc(83vh - 403px) auto auto 72vw;
+}
+	
+.slide_05 > .people{
+	background-image:url(../img/people/slide05_people.png);
+	width:249px;
+	height:293px;
+	margin:calc(79vh - 293px) auto auto 70vw;
+}
+
+.slide_06 > .people{
+	background-image:url(../img/people/slide06_people.png);
+	width:252px;
+	height:527px;
+	margin:calc(83vh - 527px) auto auto 72vw;
+}
+
+.slide_06 > .people_02{
+	background-image:url(../img/people/slide06_people_02.png);
+	width:487px;
+	height:205px;
+	position:absolute;
+	margin:calc(85vh - 205px) auto auto calc((100vw - 487px)/2);
+	z-index:9999;
+}
+
+.slide_07 > .people{
+	background-image:url(../img/people/slide07_people.png);
+	width:245px;
+	height:320px;
+	margin:calc(86vh - 320px) auto auto 40vw;
+}
+
+.slide_08 > .people{
+	background-image:url(../img/people/slide08_people.png);
+	width:359px;
+	height:590px;
+	margin:calc(83vh - 590px) auto auto 20vw;
+}
+	
+/*每一頁的地上草叢*/
+.slide_01 > .grass{
+	background-image:url(../img/object/grass/slide01_grass.png);
+	width:1467px;
+	height:146px;
+	margin:calc(90vh - 146px) auto auto 0;
+}
+	
+.slide_02 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 5vw;
+}
+	
+.slide_03 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 5vw;
+}
+	
+.slide_04 > .grass{
+	background-image:url(../img/object/grass/slide04_grass.png);
+	width:333px;
+	height:141px;
+	margin:calc(90vh - 141px) auto auto 25vw;
+}
+	
+.slide_05 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 80vw;
+}
+
+.slide_08 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 85vw;
+}
+	
+/*每一頁的主要元件*/
+
+/*第一頁 - 按鈕*/
+
+/*第二頁 - 黑板自動浮現*/
+.slide_02 > .main_obj{
+	width:683px;
+	height:555px;
+	margin:calc((100vh - 555px)/2) auto auto auto;
+}
+
+.slide_02 > .main_obj > ul{
+	width:500px;
+	margin:auto;
+	padding-top:120px;
+}
+
+.slide_02 .main_obj .box{
+	width:100%;
+	height:113px;
+}
+
+.slide_02 .main_obj .box:nth-child(3){padding-left:152px;}
+
+.slide_02 .main_obj a{
+	width:152px;
+	height:113px;
+}
+
+/*第三頁 - 自動浮現對話框*/
+
+/*第四頁 - 選單按鈕*/
+
+/*第五頁*/
+
+/*第六頁*/
+	
+/*第七頁 - 跑馬燈*/
+
+/*第八頁*/
+.slide_08 > .main_obj{margin:calc(79vh - 601px) auto auto 40vw;}
+
+/*固定在每一頁的主角人物*/
+
+/*第一頁 - 人物*/
+
+/*人物的對話框*/
+.dialog{
+	background-image:url(../img/dialog/slide01_dialog.png);
+	background-repeat:no-repeat;
+	width:169px;
+	height:184px;
+	position:absolute;
+	top:55vh;
+	left:4vw;
+	opacity:0;
+	z-index:9999;
+}
+
+/*主角*/
+.leader{
+	background-image:url(../img/lead.png);
+	background-repeat:no-repeat;
+	width:241px;
+	height:312px;
+	position:absolute;
+	top:-312px;
+	left:13vw;
+	opacity:0;
+	z-index:9999;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*螢幕大小介於1440px到1680px之間*/
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+@media screen and (min-width: 1440px) and (max-width: 1679px){
+	
+.title_img{
+	margin:auto;
+	width:730.8px;
+	height:720px;
+}
+	
+/*選單按鈕*/	
+.menu_btn{
+	display:block;
+	background-image:url(../img/menu_btn.png);
+	width:113px;
+	height:195px;
+	position:fixed;
+    right: 1.5%;
+	top:1.5%;
+	z-index:3;
+	text-indent:-9999px;
+}
+
+/*選單*/
+.menu{
+	width:400px;
+	height:100%;
+	position:fixed;
+	background-color:#FFF;
+	z-index:10;
+	left:-400px;
+}
+	
+/*第一層的雲*/
+.section > .cloud{
+	background-image:url(../img/cloud/scn01_cloud.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin:auto;
+	width:1261px;
+	height:602px;
+}
+
+/*網站地圖*/	
+.sitemap{
+	background-image:url(../img/sitemap.png);
+	margin:80px auto auto 1030px;
+	width:29px;
+	height:32px;
+	position:absolute;
+	display:block;
+	text-indent:-9999px;
+}
+
+/*每一頁的背景城市圖(-4)*/	
+.slide > .city{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+	
+.slide_01 > .city{
+	background-image:url(../img/object/city/slide01_city.png);
+	width:1335px;
+	height:505px;
+}
+	
+.slide_02 > .city{
+	background-image:url(../img/object/city/slide03_city.png);
+	width:2307px;
+	height:505px;
+	left:11%;
+}
+	
+.slide_04 > .city{
+	background-image:url(../img/object/city/slide04_city.png);
+	width:1335px;
+	height:505px;
+	left:44%;
+}
+	
+.slide_05 > .city{
+	background-image:url(../img/object/city/slide05_city.png);
+	width:642px;
+	height:505px;
+	left:58%;
+}
+	
+.slide_06 > .city{
+	background-image:url(../img/object/city/slide06_city.png);
+	width:1335px;
+	height:505px;
+	left:72%;
+}
+
+/*每一頁的背景物件(-3)*/	
+.slide > .obj{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+	transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+.slide_01 > .obj{
+	background-image:url(../img/object/obj/slide01_obj.png);
+	width:984px;
+	height:414px;
+	left:10%;
+}
+	
+.slide_03 > .obj{
+	background-image:url(../img/object/obj/slide03_obj.png);
+	width:1933px;
+	height:557px;
+	left:24%;
+}
+	
+.slide_06 > .obj{
+	background-image:url(../img/object/obj/slide06_obj.png);
+	width:735px;
+	height:289px;
+	left:66%;
+}
+	
+.slide_07 > .obj{
+	background-image:url(../img/object/obj/slide07_obj.png);
+	width:2181px;
+	height:414px;
+	left:80%;
+}
+
+/*每一頁的樹木*/	
+.slide > .tree{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .tree{
+	background-image:url(../img/object/tree/slide01_tree.png);
+	width:1060px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 50vw;
+}
+	
+.slide_02 > .tree{
+	background-image:url(../img/object/tree/slide02_tree.png);
+	width:344px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 80vw;
+}
+	
+.slide_03 > .tree{
+	background-image:url(../img/object/tree/slide03_tree.png);
+	width:681px;
+	height:412px;
+	margin:calc(79vh - 412px) auto auto 85vw;
+}
+	
+.slide_04 > .tree{
+	background-image:url(../img/object/tree/slide04_tree.png);
+	width:806px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 85vw;
+}
+	
+.slide_05 > .tree{
+	background-image:url(../img/object/tree/slide05_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 80vw;
+}
+	
+.slide_06 > .tree{
+	background-image:url(../img/object/tree/slide07_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 90vw;
+}
+	
+.slide_08 > .tree{
+	background-image:url(../img/object/tree/slide08_tree.png);
+	width:261px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 5vw;
+}
+	
+/*每一頁的主要建築物*/	
+.slide > .main_b{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:center bottom;
+    -moz-transform-origin:center bottom;
+    -o-transform-origin:center bottom;
+    -ms-transform-origin:center bottom;
+    transform-origin:center bottom;
+}
+	
+.slide_01 > .main_b{
+	background-image:url(../img/main_Building/slide01_mainB.png);
+	width:543px;
+	height:504px;
+	margin:calc(79vh - 504px) auto auto 10vw;
+}
+	
+.slide_02 > .main_b{
+	background-image:url(../img/main_Building/slide02_mainB.png);
+	width:881px;
+	height:616px;
+	margin:calc(79vh - 616px) auto auto calc((100vw - 881px)/2);
+}
+	
+.slide_06 > .main_b{
+	background-image:url(../img/main_Building/slide06_mainB.png);
+	width:187px;
+	height:354px;
+	margin:calc(79vh - 354px) auto auto 15vw;
+}
+	
+/*每一頁的花朵人物*/
+.slide > .people{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .people{
+	background-image:url(../img/people/slide01_people.png);
+	width:192px;
+	height:251px;
+	margin:calc(83vh - 251px) auto auto 50vw;
+}
+	
+.slide_02 > .people{
+	background-image:url(../img/people/slide02_people.png);
+	width:356px;
+	height:479px;
+	margin:calc(83vh - 479px) auto auto 72vw;
+}
+
+.slide_04 > .people{
+	background-image:url(../img/people/slide04_people.png);
+	width:309px;
+	height:403px;
+	margin:calc(83vh - 403px) auto auto 72vw;
+}
+	
+.slide_05 > .people{
+	background-image:url(../img/people/slide05_people.png);
+	width:249px;
+	height:293px;
+	margin:calc(79vh - 293px) auto auto 70vw;
+}
+
+.slide_06 > .people{
+	background-image:url(../img/people/slide06_people.png);
+	width:252px;
+	height:527px;
+	margin:calc(83vh - 527px) auto auto 72vw;
+}
+
+.slide_06 > .people_02{
+	background-image:url(../img/people/slide06_people_02.png);
+	width:487px;
+	height:205px;
+	position:absolute;
+	margin:calc(85vh - 205px) auto auto calc((100vw - 487px)/2);
+	z-index:9999;
+}
+
+.slide_07 > .people{
+	background-image:url(../img/people/slide07_people.png);
+	width:245px;
+	height:320px;
+	margin:calc(86vh - 320px) auto auto 45vw;
+}
+
+.slide_08 > .people{
+	background-image:url(../img/people/slide08_people.png);
+	width:359px;
+	height:590px;
+	margin:calc(83vh - 590px) auto auto 20vw;
+}
+	
+/*每一頁的地上草叢*/
+.slide > .grass{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:left;
+    -moz-transform-origin:left;
+    -o-transform-origin:left;
+    -ms-transform-origin:left;
+    transform-origin:left;
+}
+	
+.slide_01 > .grass{
+	background-image:url(../img/object/grass/slide01_grass.png);
+	width:1467px;
+	height:146px;
+	margin:calc(90vh - 146px) auto auto 0;
+}
+	
+.slide_02 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 5vw;
+}
+	
+.slide_03 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 5vw;
+}
+	
+.slide_04 > .grass{
+	background-image:url(../img/object/grass/slide04_grass.png);
+	width:333px;
+	height:141px;
+	margin:calc(90vh - 141px) auto auto 25vw;
+}
+	
+.slide_05 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 80vw;
+}
+
+.slide_08 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 85vw;
+}
+
+/*每一頁的主要元件*/
+
+/*第一頁 - 按鈕*/
+.slide_01 > .main_obj{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第二頁 - 黑板自動浮現*/
+.slide_02 > .main_obj{
+	width:546.4px;
+	height:444px;
+	margin:calc((100vh - 444px)/2) auto auto auto;	
+}
+
+.slide_02 > .main_obj > ul{
+	width:400px;
+	margin:auto;
+	padding-top:100px;
+}
+
+.slide_02 .main_obj .box{
+	width:100%;
+	height:90.4px;
+}
+
+.slide_02 .main_obj .box:nth-child(3){padding-left:121.6px;}
+
+.slide_02 .main_obj a{
+	width:121.6px;
+	height:90.4px;
+}
+
+/*第三頁 - 自動浮現對話框*/
+.slide_03 > .main_obj{	
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第四頁 - 選單按鈕*/
+.slide_04 > .main_obj{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+/*第五頁*/
+.slide_05 > .main_obj{	
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第六頁*/
+.slide_06 > .main_obj{	
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+/*第七頁 - 跑馬燈*/	
+.slide_07 > .main_obj{  
+	-webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.bus{
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第八頁*/
+.slide_08 > .main_obj{
+	margin:calc(79vh - 601px) auto auto 40vw;
+    
+	-webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.ferris_wheel{
+    
+	-webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:right bottom;
+    -moz-transform-origin:right bottom;
+    -o-transform-origin:right bottom;
+    -ms-transform-origin:right bottom;
+    transform-origin:right bottom;
+}
+
+/*固定在每一頁的主角人物*/
+
+/*第一頁 - 人物*/
+
+/*人物的對話框*/
+.dialog{
+	background-image:url(../img/dialog/slide01_dialog.png);
+	background-repeat:no-repeat;
+	width:169px;
+	height:184px;
+	position:absolute;
+	top:55vh;
+	left:5vw;
+	opacity:0;
+	z-index:9999;
+    
+	-webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:top;
+    -moz-transform-origin:top;
+    -o-transform-origin:top;
+    -ms-transform-origin:top;
+    transform-origin:top;
+}
+
+/*主角*/
+.leader{
+	background-image:url(../img/lead.png);
+	background-repeat:no-repeat;
+	width:241px;
+	height:312px;
+	position:absolute;
+	top:-312px;
+	left:13vw;
+	opacity:0;
+	z-index:9999;
+	
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+	
+    -webkit-transform-origin:top;
+    -moz-transform-origin:top;
+    -o-transform-origin:top;
+    -ms-transform-origin:top;
+    transform-origin:top;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*螢幕大小介於1366px到1440px之間*/
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+@media screen and (min-width: 1366px) and (max-width: 1439px){
+
+.title_img{
+	margin:auto;
+	width:568.4px;
+	height:560px;
+}
+	
+/*選單按鈕*/	
+.menu_btn{
+	display:block;
+	background-image:url(../img/menu_btn.png);
+	width:113px;
+	height:195px;
+	position:fixed;
+    right: 1.5%;
+	top:1.5%;
+	z-index:3;
+	text-indent:-9999px;
+}
+
+/*選單*/
+.menu{
+	width:400px;
+	height:100%;
+	position:fixed;
+	background-color:#FFF;
+	z-index:10;
+	left:-400px;
+}
+	
+/*第一層的雲*/
+.section > .cloud{
+	background-image:url(../img/cloud/scn01_cloud.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin:auto;
+	width:882.7px;
+	height:421.4px;
+}
+    
+/*網站地圖*/	
+.sitemap{
+	background-image:url(../img/sitemap.png);
+	margin:50px auto auto 720px;
+	width:29px;
+	height:32px;
+	position:absolute;
+	display:block;
+	text-indent:-9999px;
+}
+
+/*每一頁的背景城市圖(-4)*/	
+.slide > .city{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+	
+.slide_01 > .city{
+	background-image:url(../img/object/city/slide01_city.png);
+	width:1335px;
+	height:505px;
+}
+	
+.slide_02 > .city{
+	background-image:url(../img/object/city/slide03_city.png);
+	width:2307px;
+	height:505px;
+	left:11%;
+}
+	
+.slide_04 > .city{
+	background-image:url(../img/object/city/slide04_city.png);
+	width:1335px;
+	height:505px;
+	left:44%;
+}
+	
+.slide_05 > .city{
+	background-image:url(../img/object/city/slide05_city.png);
+	width:642px;
+	height:505px;
+	left:58%;
+}
+	
+.slide_06 > .city{
+	background-image:url(../img/object/city/slide06_city.png);
+	width:1335px;
+	height:505px;
+	left:72%;
+}
+
+/*每一頁的背景物件(-3)*/	
+.slide > .obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+.slide_01 > .obj{
+	background-image:url(../img/object/obj/slide01_obj.png);
+	width:984px;
+	height:414px;
+	left:10%;
+}
+	
+.slide_03 > .obj{
+	background-image:url(../img/object/obj/slide03_obj.png);
+	width:1933px;
+	height:557px;
+	left:24%;
+}
+	
+.slide_06 > .obj{
+	background-image:url(../img/object/obj/slide06_obj.png);
+	width:735px;
+	height:289px;
+	left:66%;
+}
+	
+.slide_07 > .obj{
+	background-image:url(../img/object/obj/slide07_obj.png);
+	width:2181px;
+	height:414px;
+	left:80%;
+}
+
+/*每一頁的樹木*/	
+.slide > .tree{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .tree{
+	background-image:url(../img/object/tree/slide01_tree.png);
+	width:1060px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 50vw;
+}
+	
+.slide_02 > .tree{
+	background-image:url(../img/object/tree/slide02_tree.png);
+	width:344px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 80vw;
+}
+	
+.slide_03 > .tree{
+	background-image:url(../img/object/tree/slide03_tree.png);
+	width:681px;
+	height:412px;
+	margin:calc(79vh - 412px) auto auto 85vw;
+}
+	
+.slide_04 > .tree{
+	background-image:url(../img/object/tree/slide04_tree.png);
+	width:806px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 85vw;
+}
+	
+.slide_05 > .tree{
+	background-image:url(../img/object/tree/slide05_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 80vw;
+}
+	
+.slide_06 > .tree{
+	background-image:url(../img/object/tree/slide07_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 90vw;
+}
+	
+.slide_08 > .tree{
+	background-image:url(../img/object/tree/slide08_tree.png);
+	width:261px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 5vw;
+}
+	
+/*每一頁的主要建築物*/	
+.slide > .main_b{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+    
+	-webkit-transform-origin:center bottom;
+    -moz-transform-origin:center bottom;
+    -o-transform-origin:center bottom;
+    -ms-transform-origin:center bottom;
+    transform-origin:center bottom;
+}
+	
+.slide_01 > .main_b{
+	background-image:url(../img/main_Building/slide01_mainB.png);
+	width:543px;
+	height:504px;
+	margin:calc(79vh - 504px) auto auto 10vw;
+}
+	
+.slide_02 > .main_b{
+	background-image:url(../img/main_Building/slide02_mainB.png);
+	width:881px;
+	height:616px;
+	margin:calc(79vh - 616px) auto auto calc((100vw - 881px)/2);
+}
+	
+.slide_06 > .main_b{
+	background-image:url(../img/main_Building/slide06_mainB.png);
+	width:187px;
+	height:354px;
+	margin:calc(79vh - 354px) auto auto 15vw;
+}
+	
+/*每一頁的花朵人物*/
+.slide > .people{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .people{
+	background-image:url(../img/people/slide01_people.png);
+	width:192px;
+	height:251px;
+	margin:calc(83vh - 251px) auto auto 50vw;
+}
+	
+.slide_02 > .people{
+	background-image:url(../img/people/slide02_people.png);
+	width:356px;
+	height:479px;
+	margin:calc(83vh - 479px) auto auto 72vw;
+}
+
+.slide_04 > .people{
+	background-image:url(../img/people/slide04_people.png);
+	width:309px;
+	height:403px;
+	margin:calc(83vh - 403px) auto auto 72vw;
+}
+	
+.slide_05 > .people{
+	background-image:url(../img/people/slide05_people.png);
+	width:249px;
+	height:293px;
+	margin:calc(79vh - 293px) auto auto 70vw;
+}
+
+.slide_06 > .people{
+	background-image:url(../img/people/slide06_people.png);
+	width:252px;
+	height:527px;
+	margin:calc(83vh - 527px) auto auto 72vw;
+}
+
+.slide_06 > .people_02{
+	background-image:url(../img/people/slide06_people_02.png);
+	width:487px;
+	height:205px;
+	position:absolute;
+	margin:calc(85vh - 205px) auto auto calc((100vw - 487px)/2);
+	z-index:9999;
+}
+
+.slide_07 > .people{
+	background-image:url(../img/people/slide07_people.png);
+	width:245px;
+	height:320px;
+	margin:calc(86vh - 320px) auto auto 44vw;
+}
+
+.slide_08 > .people{
+	background-image:url(../img/people/slide08_people.png);
+	width:359px;
+	height:590px;
+	margin:calc(83vh - 590px) auto auto 20vw;
+}
+	
+/*每一頁的地上草叢*/
+.slide > .grass{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left;
+    -moz-transform-origin:left;
+    -o-transform-origin:left;
+    -ms-transform-origin:left;
+    transform-origin:left;
+}
+	
+.slide_01 > .grass{
+	background-image:url(../img/object/grass/slide01_grass.png);
+	width:1467px;
+	height:146px;
+	margin:calc(90vh - 146px) auto auto 0;
+}
+	
+.slide_02 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 5vw;
+}
+	
+.slide_03 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 5vw;
+}
+	
+.slide_04 > .grass{
+	background-image:url(../img/object/grass/slide04_grass.png);
+	width:333px;
+	height:141px;
+	margin:calc(90vh - 141px) auto auto 25vw;
+}
+	
+.slide_05 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 80vw;
+}
+
+.slide_08 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 85vw;
+}
+	
+/*每一頁的主要元件*/
+
+/*第一頁 - 按鈕*/
+.slide_01 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第二頁 - 黑板自動浮現*/
+.slide_02 > .main_obj{
+	width:478.1px;
+	height:388.5px;
+	margin:calc((100vh - 388.5px)/2) auto auto auto;
+}
+
+.slide_02 > .main_obj > ul{
+	width:380px;
+	margin:auto;
+	padding-top:90px;
+}
+
+.slide_02 .main_obj .box{
+	width:100%;
+	height:79.1px;
+}
+
+.slide_02 .main_obj .box:nth-child(3){padding-left:106.4px;}
+
+.slide_02 .main_obj a{
+	width:106.4px;
+	height:79.1px;
+}
+
+/*第三頁 - 自動浮現對話框*/
+.slide_03 > .main_obj{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第四頁 - 選單按鈕*/
+.slide_04 > .main_obj{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第五頁*/
+.slide_05 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.car{
+	-webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+    -o-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+	transform: scale(0.9, 0.9);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第六頁*/
+.slide_06 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第七頁 - 跑馬燈*/	
+.slide_07 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.bus{
+    
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第八頁*/
+.slide_08 > .main_obj{
+	margin:calc(79vh - 601px) auto auto 40vw;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+.ferris_wheel{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+/*固定在每一頁的主角人物*/
+
+/*第一頁 - 人物*/
+
+/*人物的對話框*/
+.dialog{
+	background-image:url(../img/dialog/slide01_dialog.png);
+	background-repeat:no-repeat;
+	width:169px;
+	height:184px;
+	position:absolute;
+	top:55vh;
+	left:5vw;
+	opacity:0;
+	z-index:9999;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:top left;
+    -moz-transform-origin:top left;
+    -o-transform-origin:top left;
+    -ms-transform-origin:top left;
+    transform-origin:top left;
+}
+
+/*主角*/
+.leader{
+	background-image:url(../img/lead.png);
+	background-repeat:no-repeat;
+	width:241px;
+	height:312px;
+	position:absolute;
+	top:-312px;
+	left:13vw;
+	opacity:0;
+	z-index:9999;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+    
+	-webkit-transform-origin:left top;
+    -moz-transform-origin:left top;
+    -o-transform-origin:left top;
+    -ms-transform-origin:left top;
+    transform-origin:left top;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*螢幕大小介於1280px到1366px之間*/
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+@media screen and (min-width: 1280px) and (max-width: 1365px){
+
+.title_img{
+	margin:auto;
+	width:568.4px;
+	height:560px;
+}
+	
+/*選單按鈕*/	
+.menu_btn{
+	display:block;
+	background-image:url(../img/menu_btn.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	width:79.1px;
+	height:136.5px;
+	position:fixed;
+    right: 1.5%;
+	top:1.5%;
+	z-index:3;
+	text-indent:-9999px;
+}
+
+/*選單*/
+.menu{
+	width:300px;
+	height:100%;
+	position:fixed;
+	background-color:#FFF;
+	z-index:10;
+	left:-400px;
+}
+	
+/*第一層的雲*/
+.section > .cloud{
+	background-image:url(../img/cloud/scn01_cloud.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin:5vh auto auto auto;
+	width:882.7px;
+	height:421.4px;
+}
+
+/*網站地圖*/	
+.sitemap{
+	background-image:url(../img/sitemap.png);
+	margin:50px auto auto 720px;
+	width:29px;
+	height:32px;
+	position:absolute;
+	display:block;
+	text-indent:-9999px;
+}
+
+/*每一頁的背景城市圖(-4)*/	
+.slide > .city{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+	
+.slide_01 > .city{
+	background-image:url(../img/object/city/slide01_city.png);
+	width:1335px;
+	height:505px;
+}
+	
+.slide_02 > .city{
+	background-image:url(../img/object/city/slide03_city.png);
+	width:2307px;
+	height:505px;
+	left:11%;
+}
+	
+.slide_04 > .city{
+	background-image:url(../img/object/city/slide04_city.png);
+	width:1335px;
+	height:505px;
+	left:44%;
+}
+	
+.slide_05 > .city{
+	background-image:url(../img/object/city/slide05_city.png);
+	width:642px;
+	height:505px;
+	left:58%;
+}
+	
+.slide_06 > .city{
+	background-image:url(../img/object/city/slide06_city.png);
+	width:1335px;
+	height:505px;
+	left:72%;
+}
+
+/*每一頁的背景物件(-3)*/	
+.slide > .obj{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+.slide_01 > .obj{
+	background-image:url(../img/object/obj/slide01_obj.png);
+	width:984px;
+	height:414px;
+	left:10%;
+}
+	
+.slide_03 > .obj{
+	background-image:url(../img/object/obj/slide03_obj.png);
+	width:1933px;
+	height:557px;
+	left:24%;
+}
+	
+.slide_06 > .obj{
+	background-image:url(../img/object/obj/slide06_obj.png);
+	width:735px;
+	height:289px;
+	left:66%;
+}
+	
+.slide_07 > .obj{
+	background-image:url(../img/object/obj/slide07_obj.png);
+	width:2181px;
+	height:414px;
+	left:80%;
+}
+
+/*每一頁的樹木*/	
+.slide > .tree{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .tree{
+	background-image:url(../img/object/tree/slide01_tree.png);
+	width:1060px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 50vw;
+}
+	
+.slide_02 > .tree{
+	background-image:url(../img/object/tree/slide02_tree.png);
+	width:344px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 80vw;
+}
+	
+.slide_03 > .tree{
+	background-image:url(../img/object/tree/slide03_tree.png);
+	width:681px;
+	height:412px;
+	margin:calc(79vh - 412px) auto auto 85vw;
+}
+	
+.slide_04 > .tree{
+	background-image:url(../img/object/tree/slide04_tree.png);
+	width:806px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 85vw;
+}
+	
+.slide_05 > .tree{
+	background-image:url(../img/object/tree/slide05_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 80vw;
+}
+	
+.slide_06 > .tree{
+	background-image:url(../img/object/tree/slide07_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 90vw;
+}
+	
+.slide_08 > .tree{
+	background-image:url(../img/object/tree/slide08_tree.png);
+	width:261px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 5vw;
+}
+	
+/*每一頁的主要建築物*/	
+.slide > .main_b{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:center bottom;
+    -moz-transform-origin:center bottom;
+    -o-transform-origin:center bottom;
+    -ms-transform-origin:center bottom;
+    transform-origin:center bottom;
+}
+	
+.slide_01 > .main_b{
+	background-image:url(../img/main_Building/slide01_mainB.png);
+	width:543px;
+	height:504px;
+	margin:calc(79vh - 504px) auto auto 10vw;
+}
+	
+.slide_02 > .main_b{
+	background-image:url(../img/main_Building/slide02_mainB.png);
+	width:881px;
+	height:616px;
+	margin:calc(79vh - 616px) auto auto calc((100vw - 881px)/2);
+}
+	
+.slide_06 > .main_b{
+	background-image:url(../img/main_Building/slide06_mainB.png);
+	width:187px;
+	height:354px;
+	margin:calc(79vh - 354px) auto auto 15vw;
+}
+	
+/*每一頁的花朵人物*/
+.slide > .people{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .people{
+	background-image:url(../img/people/slide01_people.png);
+	width:192px;
+	height:251px;
+	margin:calc(83vh - 251px) auto auto 50vw;
+}
+	
+.slide_02 > .people{
+	background-image:url(../img/people/slide02_people.png);
+	width:356px;
+	height:479px;
+	margin:calc(83vh - 479px) auto auto 72vw;
+}
+
+.slide_04 > .people{
+	background-image:url(../img/people/slide04_people.png);
+	width:309px;
+	height:403px;
+	margin:calc(83vh - 403px) auto auto 72vw;
+}
+	
+.slide_05 > .people{
+	background-image:url(../img/people/slide05_people.png);
+	width:249px;
+	height:293px;
+	margin:calc(79vh - 293px) auto auto 70vw;
+}
+
+.slide_06 > .people{
+	background-image:url(../img/people/slide06_people.png);
+	width:252px;
+	height:527px;
+	margin:calc(83vh - 527px) auto auto 72vw;
+}
+
+.slide_06 > .people_02{
+	background-image:url(../img/people/slide06_people_02.png);
+	width:487px;
+	height:205px;
+	position:absolute;
+	margin:calc(85vh - 205px) auto auto calc((100vw - 487px)/2);
+	z-index:9999;
+	transform: scale(0.7, 0.7);
+	transform-origin:bottom;
+}
+
+.slide_07 > .people{
+	background-image:url(../img/people/slide07_people.png);
+	width:245px;
+	height:320px;
+	margin:calc(86vh - 320px) auto auto 45vw;
+}
+
+.slide_08 > .people{
+	background-image:url(../img/people/slide08_people.png);
+	width:359px;
+	height:590px;
+	margin:calc(83vh - 590px) auto auto 20vw;
+}
+	
+/*每一頁的地上草叢*/
+.slide > .grass{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left;
+    -moz-transform-origin:left;
+    -o-transform-origin:left;
+    -ms-transform-origin:left;
+    transform-origin:left;
+}
+	
+.slide_01 > .grass{
+	background-image:url(../img/object/grass/slide01_grass.png);
+	width:1467px;
+	height:146px;
+	margin:calc(90vh - 146px) auto auto 0;
+}
+	
+.slide_02 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 5vw;
+}
+	
+.slide_03 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 5vw;
+}
+	
+.slide_04 > .grass{
+	background-image:url(../img/object/grass/slide04_grass.png);
+	width:333px;
+	height:141px;
+	margin:calc(90vh - 141px) auto auto 25vw;
+}
+	
+.slide_05 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 80vw;
+}
+
+.slide_08 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 85vw;
+}
+	
+/*每一頁的主要元件*/
+
+/*第一頁 - 按鈕*/
+.slide_01 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第二頁 - 黑板自動浮現*/
+.slide_02 > .main_obj{
+	width:478.1px;
+	height:388.5px;
+	margin:calc((100vh - 388.5px)/2) auto auto auto;
+}
+
+.slide_02 > .main_obj > ul{
+	width:380px;
+	margin:auto;
+	padding-top:90px;
+}
+
+.slide_02 .main_obj .box{
+	width:100%;
+	height:79.1px;
+}
+
+.slide_02 .main_obj .box:nth-child(3){padding-left:106.4px;}
+
+.slide_02 .main_obj a{
+	width:106.4px;
+	height:79.1px;
+}
+
+/*第三頁 - 自動浮現對話框*/
+.slide_03 > .main_obj{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第四頁 - 選單按鈕*/
+.slide_04 > .main_obj{	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+/*第五頁*/
+.slide_05 > .main_obj{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.car{
+	-webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+    -o-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+	transform: scale(0.9, 0.9);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第六頁*/
+.slide_06 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+/*第七頁 - 跑馬燈*/	
+.slide_07 > .main_obj{  
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.bus{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+/*第八頁*/
+.slide_08 > .main_obj{
+	margin:calc(79vh - 601px) auto auto 35vw;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.ferris_wheel{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:right bottom;
+    -moz-transform-origin:right bottom;
+    -o-transform-origin:right bottom;
+    -ms-transform-origin:right bottom;
+    transform-origin:right bottom;
+}
+
+/*固定在每一頁的主角人物*/
+
+/*第一頁 - 人物*/
+
+/*人物的對話框*/
+.dialog{
+	background-image:url(../img/dialog/slide01_dialog.png);
+	background-repeat:no-repeat;
+	width:169px;
+	height:184px;
+	position:absolute;
+	top:55vh;
+	left:3vw;
+	opacity:0;
+	z-index:9999;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:top left;
+    -moz-transform-origin:top left;
+    -o-transform-origin:top left;
+    -ms-transform-origin:top left;
+    transform-origin:top left;
+}
+
+/*主角*/
+.leader{
+	background-image:url(../img/lead.png);
+	background-repeat:no-repeat;
+	width:241px;
+	height:312px;
+	position:absolute;
+	top:-312px;
+	left:11vw;
+	opacity:0;
+	z-index:9999;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left center;
+    -moz-transform-origin:left center;
+    -o-transform-origin:left center;
+    -ms-transform-origin:left center;
+    transform-origin:left center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+/*螢幕大小介於1024px到1280px之間*/
+
+/*▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇*/
+
+@media screen and (min-width: 1025px) and (max-width: 1279px){
+
+.title_img{
+	margin:auto;
+	width:568.4px;
+	height:560px;
+}
+	
+/*選單按鈕*/	
+.menu_btn{
+	display:block;
+	background-image:url(../img/menu_btn.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	width:79.1px;
+	height:136.5px;
+	position:fixed;
+	right:1.5%;
+	top:1.5%;
+	z-index:3;
+	text-indent:-9999px;
+}
+
+/*選單*/
+.menu{
+	width:300px;
+	height:100%;
+	position:fixed;
+	background-color:#FFF;
+	z-index:10;
+	left:-400px;
+}
+	
+/*第一層的雲*/
+.section > .cloud{
+	background-image:url(../img/cloud/scn01_cloud.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin:calc((100vh - 421.4px)/8) auto auto auto;
+	width:882.7px;
+	height:421.4px;
+}
+
+/*網站地圖*/	
+.sitemap{
+	background-image:url(../img/sitemap.png);
+	margin:50px auto auto 720px;
+	width:29px;
+	height:32px;
+	position:absolute;
+	display:block;
+	text-indent:-9999px;
+}
+
+/*每一頁的背景城市圖(-4)*/	
+.slide > .city{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+    
+	-webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+	
+.slide_01 > .city{
+	background-image:url(../img/object/city/slide01_city.png);
+	width:1335px;
+	height:505px;
+}
+	
+.slide_02 > .city{
+	background-image:url(../img/object/city/slide03_city.png);
+	width:2307px;
+	height:505px;
+	left:11%;
+}
+	
+.slide_04 > .city{
+	background-image:url(../img/object/city/slide04_city.png);
+	width:1335px;
+	height:505px;
+	left:44%;
+}
+	
+.slide_05 > .city{
+	background-image:url(../img/object/city/slide05_city.png);
+	width:642px;
+	height:505px;
+	left:58%;
+}
+	
+.slide_06 > .city{
+	background-image:url(../img/object/city/slide06_city.png);
+	width:1335px;
+	height:505px;
+	left:72%;
+}
+
+/*每一頁的背景物件(-3)*/	
+.slide > .obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+.slide_01 > .obj{
+	background-image:url(../img/object/obj/slide01_obj.png);
+	width:984px;
+	height:414px;
+	left:10%;
+}
+	
+.slide_03 > .obj{
+	background-image:url(../img/object/obj/slide03_obj.png);
+	width:1933px;
+	height:557px;
+	left:24%;
+}
+	
+.slide_06 > .obj{
+	background-image:url(../img/object/obj/slide06_obj.png);
+	width:735px;
+	height:289px;
+	left:66%;
+}
+	
+.slide_07 > .obj{
+	background-image:url(../img/object/obj/slide07_obj.png);
+	width:2181px;
+	height:414px;
+	left:80%;
+}
+
+/*每一頁的樹木*/	
+.slide > .tree{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .tree{
+	background-image:url(../img/object/tree/slide01_tree.png);
+	width:1060px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 50vw;
+}
+	
+.slide_02 > .tree{
+	background-image:url(../img/object/tree/slide02_tree.png);
+	width:344px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 80vw;
+}
+	
+.slide_03 > .tree{
+	background-image:url(../img/object/tree/slide03_tree.png);
+	width:681px;
+	height:412px;
+	margin:calc(79vh - 412px) auto auto 85vw;
+}
+	
+.slide_04 > .tree{
+	background-image:url(../img/object/tree/slide04_tree.png);
+	width:806px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 85vw;
+}
+	
+.slide_05 > .tree{
+	background-image:url(../img/object/tree/slide05_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 80vw;
+}
+	
+.slide_06 > .tree{
+	background-image:url(../img/object/tree/slide07_tree.png);
+	width:341px;
+	height:430px;
+	margin:calc(79vh - 430px) auto auto 90vw;
+}
+	
+.slide_08 > .tree{
+	background-image:url(../img/object/tree/slide08_tree.png);
+	width:261px;
+	height:328px;
+	margin:calc(79vh - 328px) auto auto 5vw;
+}
+	
+/*每一頁的主要建築物*/	
+.slide > .main_b{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:center bottom;
+    -moz-transform-origin:center bottom;
+    -o-transform-origin:center bottom;
+    -ms-transform-origin:center bottom;
+    transform-origin:center bottom;
+}
+	
+.slide_01 > .main_b{
+	background-image:url(../img/main_Building/slide01_mainB.png);
+	width:543px;
+	height:504px;
+	margin:calc(79vh - 504px) auto auto 5vw;
+}
+	
+.slide_02 > .main_b{
+	background-image:url(../img/main_Building/slide02_mainB.png);
+	width:881px;
+	height:616px;
+	margin:calc(79vh - 616px) auto auto calc((100vw - 881px)/2);
+}
+	
+.slide_06 > .main_b{
+	background-image:url(../img/main_Building/slide06_mainB.png);
+	width:187px;
+	height:354px;
+	margin:calc(79vh - 354px) auto auto 10vw;
+}
+	
+/*每一頁的花朵人物*/
+.slide > .people{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+.slide_01 > .people{
+	background-image:url(../img/people/slide01_people.png);
+	width:192px;
+	height:251px;
+	margin:calc(83vh - 251px) auto auto 60vw;
+}
+	
+.slide_02 > .people{
+	background-image:url(../img/people/slide02_people.png);
+	width:356px;
+	height:479px;
+	margin:calc(83vh - 479px) auto auto 70vw;
+}
+
+.slide_04 > .people{
+	background-image:url(../img/people/slide04_people.png);
+	width:309px;
+	height:403px;
+	margin:calc(83vh - 403px) auto auto 70vw;
+}
+	
+.slide_05 > .people{
+	background-image:url(../img/people/slide05_people.png);
+	width:249px;
+	height:293px;
+	margin:calc(79vh - 293px) auto auto 70vw;
+}
+
+.slide_06 > .people{
+	background-image:url(../img/people/slide06_people.png);
+	width:252px;
+	height:527px;
+	margin:calc(83vh - 527px) auto auto 72vw;
+}
+
+.slide_06 > .people_02{
+	background-image:url(../img/people/slide06_people_02.png);
+	width:487px;
+	height:205px;
+	position:absolute;
+	margin:calc(85vh - 205px) auto auto calc((100vw - 487px)/2);
+	z-index:9999;
+	transform: scale(0.8, 0.8);
+	transform-origin:bottom;
+}
+
+.slide_07 > .people{
+	background-image:url(../img/people/slide07_people.png);
+	width:245px;
+	height:320px;
+	margin:calc(86vh - 320px) auto auto 40vw;
+}
+
+.slide_08 > .people{
+	background-image:url(../img/people/slide08_people.png);
+	width:359px;
+	height:590px;
+	margin:calc(83vh - 590px) auto auto 13vw;
+}
+	
+/*每一頁的地上草叢*/
+.slide > .grass{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left;
+    -moz-transform-origin:left;
+    -o-transform-origin:left;
+    -ms-transform-origin:left;
+    transform-origin:left;
+}
+	
+.slide_01 > .grass{
+	background-image:url(../img/object/grass/slide01_grass.png);
+	width:1467px;
+	height:146px;
+	margin:calc(90vh - 146px) auto auto 0;
+}
+	
+.slide_02 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 5vw;
+}
+	
+.slide_03 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 5vw;
+}
+	
+.slide_04 > .grass{
+	background-image:url(../img/object/grass/slide04_grass.png);
+	width:333px;
+	height:141px;
+	margin:calc(90vh - 141px) auto auto 25vw;
+}
+	
+.slide_05 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(95vh - 113px) auto auto 80vw;
+}
+
+.slide_08 > .grass{
+	background-image:url(../img/object/grass/slide02_grass.png);
+	width:176px;
+	height:113px;
+	margin:calc(90vh - 113px) auto auto 85vw;
+}
+
+/*每一頁的主要元件*/
+
+/*第一頁 - 按鈕*/
+.slide_01 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第二頁 - 黑板自動浮現*/
+.slide_02 > .main_obj{
+	width:478.1px;
+	height:388.5px;
+	margin:calc((100vh - 388.5px)/2) auto auto auto;
+}
+
+.slide_02 > .main_obj > ul{
+	width:380px;
+	margin:auto;
+	padding-top:90px;
+}
+
+.slide_02 .main_obj .box{
+	width:100%;
+	height:79.1px;
+}
+
+.slide_02 .main_obj .box:nth-child(3){padding-left:106.4px;}
+
+.slide_02 .main_obj a{
+	width:106.4px;
+	height:79.1px;
+}
+
+/*第三頁 - 自動浮現對話框*/
+.slide_03 > .main_obj{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第四頁 - 選單按鈕*/
+.slide_04 > .main_obj{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+/*第五頁*/
+.slide_05 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.car{
+	-webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+    -o-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+	transform: scale(0.9, 0.9);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+/*第六頁*/
+.slide_06 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+	
+/*第七頁 - 跑馬燈*/	
+.slide_07 > .main_obj{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+.bus{
+	-webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    transform-origin:left bottom;
+}
+
+/*第八頁*/
+.slide_08 > .main_obj{
+	margin:calc(79vh - 601px) auto auto 25vw;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    transform-origin:bottom;
+}
+
+.ferris_wheel{
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:right bottom;
+    -moz-transform-origin:right bottom;
+    -o-transform-origin:right bottom;
+    -ms-transform-origin:right bottom;
+    transform-origin:right bottom;
+}
+
+/*固定在每一頁的主角人物*/
+
+/*第一頁 - 人物*/
+
+/*人物的對話框*/
+.dialog{
+	background-image:url(../img/dialog/slide01_dialog.png);
+	background-repeat:no-repeat;
+	width:169px;
+	height:184px;
+	position:absolute;
+	top:55vh;
+	left:1vw;
+	opacity:0;
+	z-index:9999;
+    
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin:top left;
+    -moz-transform-origin:top left;
+    -o-transform-origin:top left;
+    -ms-transform-origin:top left;
+    transform-origin:top left;
+}
+
+/*主角*/
+.leader{
+	background-image:url(../img/lead.png);
+	background-repeat:no-repeat;
+	width:241px;
+	height:312px;
+	position:absolute;
+	top:-312px;
+	left:7vw;
+	opacity:0;
+	z-index:9999;
+	
+    -webkit-transform: scale(0.7, 0.7);
+    -moz-transform: scale(0.7, 0.7);
+    -o-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    transform: scale(0.7, 0.7);
+	
+    -webkit-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -o-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top;
+}
+
+}
