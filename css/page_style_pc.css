@@ -60,24 +60,24 @@ li{list-style-type: none;}
 
 /*menu選單的元素*/
 .menu > .in{
-	width:100%;
-	height:15%;
-	background-color:#FFF;
-	background-image:url(../img/menu/menu_in.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-	display:block;
+	width: 100%;
+	height: 20%;
+	background-color: #FFF ;
+	background-image: url(../image/LOGO.jpg);
+	background-size:270px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
 }
 
-.menu > .down{
-	width:100%;
-	height:13%;
-	display:block;
-	background-color:#FFF;
-	background-image:url(../img/menu/menu_down.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-	text-indent:-9999px;
+.menu > .down{width: 100%;
+	height: 26%;
+	display: block;
+	background-color: #FFF;
+	background-image: url(../img/menu/menu_down.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
 }
 	
 .menu_p{
@@ -85,63 +85,59 @@ li{list-style-type: none;}
 	height:9%;
 	display:block;
 	text-indent:-9999px;
+	background-size:270px;
 	
 }
 	
-.p1{
-	background-color:#e24f4f;
-	background-image:url(../img/menu/page/menu_p1.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-}
-	
+.p1 {
+	background-color: #FFF;
+	background-image: url(../image/m1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}	
 .p2{
-	background-color:#e58850;
-	background-image:url(../img/menu/page/menu_p2.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+	background-color: #FFF;
+	background-image: url(../image/m2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}	
+	
+.p3 {
+	background-color: #FFF;
+	background-image: url(../image/m3.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.p4 {
+	background-color: #FFF;
+	background-image: url(../image/m4.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.p5 {
+	background-color: #FFF;
+	background-image: url(../image/m5.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.p6 {
+	background-color: #FFF;
+	background-image: url(../image/m6.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 	
-.p3{
-	background-color:#e8a542;
-	background-image:url(../img/menu/page/menu_p3.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p7 {
+	background-color: #FFF;
+	background-image: url(../image/m7.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
-	
-.p4{
-	background-color:#50c092;
-	background-image:url(../img/menu/page/menu_p4.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-}
-	
-.p5{
-	background-color:#4f9be2;
-	background-image:url(../img/menu/page/menu_p5.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-}
-	
-.p6{
-	background-color:#576aae;
-	background-image:url(../img/menu/page/menu_p6.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-}
-	
-.p7{
-	background-color:#8657ae;
-	background-image:url(../img/menu/page/menu_p7.png);
-	background-position:center center;
-	background-repeat:no-repeat;
-}
-	
-.p8{
-	background-color:#d56b8a;
-	background-image:url(../img/menu/page/menu_p8.png);
-	background-position:center center;
-	background-repeat:no-repeat;
+.p8 {
+	background-color: #FFF;
+	background-image: url(../image/m8.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 /*menu的收納選單*/
@@ -682,12 +678,12 @@ p{padding:0; margin:0;}
 
 /*選單*/
 .menu{
-	width:400px;
+	width:270px;
 	height:100%;
 	position:fixed;
 	background-color:#FFF;
 	z-index:10;
-	left:-400px;
+	left:-270px;
 }
 
 /*第一層的雲*/
@@ -1061,12 +1057,12 @@ p{padding:0; margin:0;}
 
 /*選單*/
 .menu{
-	width:400px;
+	width:270px;
 	height:100%;
 	position:fixed;
 	background-color:#FFF;
 	z-index:10;
-	left:-400px;
+	left:-270px;
 }
 	
 /*第一層的雲*/
@@ -1671,12 +1667,12 @@ p{padding:0; margin:0;}
 
 /*選單*/
 .menu{
-	width:400px;
+	width:270px;
 	height:100%;
 	position:fixed;
 	background-color:#FFF;
 	z-index:10;
-	left:-400px;
+	left:-270px;
 }
 	
 /*第一層的雲*/
@@ -2296,12 +2292,12 @@ p{padding:0; margin:0;}
 
 /*選單*/
 .menu{
-	width:300px;
+	width:270px;
 	height:100%;
 	position:fixed;
 	background-color:#FFF;
 	z-index:10;
-	left:-400px;
+	left:-270px;
 }
 	
 /*第一層的雲*/
@@ -2921,12 +2917,12 @@ p{padding:0; margin:0;}
 
 /*選單*/
 .menu{
-	width:300px;
+	width:270px;
 	height:100%;
 	position:fixed;
 	background-color:#FFF;
 	z-index:10;
-	left:-400px;
+	left:-270px;
 }
 	
 /*第一層的雲*/
