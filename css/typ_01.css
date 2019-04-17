@@ -6,7 +6,9 @@ body {
 }
 /*=============== header ===============*/
 header {
-	background-image: url(../image/01.jpg);
+	background-image: url(../image/bg.jpg);
+	
+	background-size: contain;
 }
 .headimg{
 	background-image: url(../img/pages/chara_p1.png);
