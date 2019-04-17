@@ -1046,8 +1046,8 @@ p{padding:0; margin:0;}
 	
 .title_img{
 	margin:auto;
-	width:730.8px;
-	height:720px;
+	width:100%;
+	height:auto;
 }
 	
 /*選單按鈕*/	
@@ -1080,7 +1080,6 @@ p{padding:0; margin:0;}
 	background-size:contain;
 	margin:auto;
 	width:1261px;
-	height:602px;
 }
 
 /*網站地圖*/	
@@ -1656,8 +1655,8 @@ p{padding:0; margin:0;}
 
 .title_img{
 	margin:auto;
-	width:568.4px;
-	height:560px;
+	width:100%;
+	height:auto;
 }
 	
 /*選單按鈕*/	
@@ -1690,7 +1689,6 @@ p{padding:0; margin:0;}
 	background-size:contain;
 	margin:auto;
 	width:882.7px;
-	height:421.4px;
 }
     
 /*網站地圖*/	
@@ -2279,8 +2277,8 @@ p{padding:0; margin:0;}
 
 .title_img{
 	margin:auto;
-	width:568.4px;
-	height:560px;
+	width:100%;
+	height:auto;
 }
 	
 /*選單按鈕*/	
@@ -2315,7 +2313,6 @@ p{padding:0; margin:0;}
 	background-size:contain;
 	margin:5vh auto auto auto;
 	width:882.7px;
-	height:421.4px;
 }
 
 /*網站地圖*/	
@@ -2904,8 +2901,8 @@ p{padding:0; margin:0;}
 
 .title_img{
 	margin:auto;
-	width:568.4px;
-	height:560px;
+	width:100%;
+	height:auto;
 }
 	
 /*選單按鈕*/	
@@ -2940,7 +2937,6 @@ p{padding:0; margin:0;}
 	background-size:contain;
 	margin:calc((100vh - 421.4px)/8) auto auto auto;
 	width:882.7px;
-	height:421.4px;
 }
 
 /*網站地圖*/	
