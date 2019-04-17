@@ -697,7 +697,7 @@ p{padding:0; margin:0;}
 
 /*第一層的雲*/
 .section > .cloud{
-	background-image:url(../img/cloud/scn01_cloud.png);
+	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	margin:auto;
@@ -1076,7 +1076,7 @@ p{padding:0; margin:0;}
 	
 /*第一層的雲*/
 .section > .cloud{
-	background-image:url(../img/cloud/scn01_cloud.png);
+	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	margin:auto;
@@ -2311,7 +2311,7 @@ p{padding:0; margin:0;}
 	
 /*第一層的雲*/
 .section > .cloud{
-	background-image:url(../img/cloud/scn01_cloud.png);
+	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	margin:5vh auto auto auto;
@@ -2936,7 +2936,7 @@ p{padding:0; margin:0;}
 	
 /*第一層的雲*/
 .section > .cloud{
-	background-image:url(../img/cloud/scn01_cloud.png);
+	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	margin:calc((100vh - 421.4px)/8) auto auto auto;
