@@ -668,8 +668,8 @@ p{padding:0; margin:0;}
 
 .title_img{
 	margin: auto;
-	width:812px;
-	height:800px;
+	width:100%;
+	height:auto;
 }
 	
 /*選單按鈕*/	
