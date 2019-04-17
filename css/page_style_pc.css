@@ -672,6 +672,7 @@ p{padding:0; margin:0;}
 	background-image:url(../image/menu.png);
 	width:113px;
 	height:147.75px;
+    background-size: contain;
 	position:fixed;
     right: 1.5%;
 	top:1.5%;
@@ -1050,6 +1051,7 @@ p{padding:0; margin:0;}
 	background-image:url(../image/menu.png);
 	width:113px;
 	height:147.75px;
+    background-size: contain;
 	position:fixed;
     right: 1.5%;
 	top:1.5%;
@@ -1659,6 +1661,7 @@ p{padding:0; margin:0;}
 	background-image:url(../image/menu.png);
 	width:113px;
 	height:147.75px;
+    background-size: contain;
 	position:fixed;
     right: 1.5%;
 	top:1.5%;
@@ -2283,6 +2286,7 @@ p{padding:0; margin:0;}
 	background-size:contain;
 	width:79.1px;
 	height:103.33px;
+    background-size: contain;
 	position:fixed;
     right: 1.5%;
 	top:1.5%;
@@ -2907,6 +2911,7 @@ p{padding:0; margin:0;}
 	background-size:contain;
 	width:79.1px;
 	height:103.33px;
+    background-size: contain;
 	position:fixed;
 	right:1.5%;
 	top:1.5%;
