@@ -98,17 +98,17 @@ function btnNewGame_Click() {
 
 		switch (boardsize) {
 			case 1:
-				_board_m = 8;
-				_board_n = 6;
+				_board_m = 4;
+				_board_n = 3;
 				break;
 			case 3:
-				_board_m = 16;
-				_board_n = 9;
+				_board_m = 8;
+				_board_n = 5;
 				break;
 			case 2:
 			default:
-				_board_m = 12;
-				_board_n = 8;
+				_board_m = 6;
+				_board_n = 4;
 				break;
 		}
 		_width = (_board_m + 2) * _img_face_width;
@@ -207,17 +207,6 @@ function btnOrder_Click() {
 		_timer_time = setInterval(function () {
 			draw_time(calc_time());
 		}, 500);
-	}
-}
-
-function btnRemoveOrder_Click() {
-	if (localStorage == null) return;
-
-	for (var i = 0; i < 5; i++) {
-		var keyName = "name" + _boardsize + "_" + i;
-		var keyTime = "time" + _boardsize + "_" + i;
-		localStorage.removeItem(keyName);
-		localStorage.removeItem(keyTime);
 	}
 }
 
