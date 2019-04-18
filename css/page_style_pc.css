@@ -188,6 +188,11 @@ li{list-style-type: none;}
 	background-color:#8bd5b7;
 	display: none;
 }
+
+.p1_slide a:hover{background-color:#e24f4f;}
+.p2_slide a:hover{background-color:#e58850;}
+.p3_slide a:hover{background-color:#e8a542;}	
+.p4_slide a:hover{background-color:#50c092;}
 /*主角人物的對話框*/
 .dialog02{background-image:url(../img/dialog/slide02_dialog.png);}
 .dialog05{background-image:url(../img/dialog/slide05_dialog.png);}

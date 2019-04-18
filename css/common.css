@@ -243,18 +243,10 @@ h2:before {
 	background-color: #8bd5b7;
 	display: none;
 }
-.p1_slide a:hover {
-	background-color: #FFF;
-}
-.p2_slide a:hover {
-	background-color: #FFF;
-}
-.p3_slide a:hover {
-	background-color: #FFF;
-}
-.p4_slide a:hover {
-	background-color: #FFF;
-}
+.p1_slide a:hover{background-color:#e24f4f;}
+.p2_slide a:hover{background-color:#e58850;}
+.p3_slide a:hover{background-color:#e8a542;}	
+.p4_slide a:hover{background-color:#50c092;}
 /*=============== 選單 end ===============*/
 /*=============== 子選單 ===============*/
 .submn a {
