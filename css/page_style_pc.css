@@ -663,9 +663,10 @@ p{padding:0; margin:0;}
 
 .title_img{
 	margin: auto;
-	width:500px;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 50%;
+    position: relative;
+    top: 0%;
+    transform:translate3d(0, 50%, 0);
 }
 	
 /*選單按鈕*/	
@@ -1045,7 +1046,9 @@ p{padding:0; margin:0;}
 .title_img{
 	margin:auto;
 	width:100%;
-    margin-top: 200px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 	
 /*選單按鈕*/	
@@ -1656,7 +1659,9 @@ p{padding:0; margin:0;}
 .title_img{
 	margin:auto;
 	width:100%;
-	height:auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 	
 /*選單按鈕*/	
@@ -2280,7 +2285,9 @@ p{padding:0; margin:0;}
 .title_img{
 	margin:auto;
 	width:100%;
-	height:auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 	
 /*選單按鈕*/	
@@ -2906,7 +2913,9 @@ p{padding:0; margin:0;}
 .title_img{
 	margin:auto;
 	width:100%;
-	height:auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 	
 /*選單按鈕*/	
