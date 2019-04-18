@@ -1047,8 +1047,8 @@ p{padding:0; margin:0;}
 	margin:auto;
 	width:100%;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0%;
+    transform:translate3d(0, 50%, 0);
 }
 	
 /*選單按鈕*/	
@@ -1660,8 +1660,8 @@ p{padding:0; margin:0;}
 	margin:auto;
 	width:100%;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0%;
+    transform:translate3d(0, 50%, 0);
 }
 	
 /*選單按鈕*/	
@@ -2286,8 +2286,8 @@ p{padding:0; margin:0;}
 	margin:auto;
 	width:100%;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0%;
+    transform:translate3d(0, 50%, 0);
 }
 	
 /*選單按鈕*/	
@@ -2914,8 +2914,8 @@ p{padding:0; margin:0;}
 	margin:auto;
 	width:100%;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0%;
+    transform:translate3d(0, 50%, 0);
 }
 	
 /*選單按鈕*/	
