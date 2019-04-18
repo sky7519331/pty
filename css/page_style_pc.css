@@ -4,7 +4,7 @@ li{list-style-type: none;}
 
 /*背景*/
 .section{
-	background-color: #FFF;
+	background-color: #6dc0e8;
 	background-size:auto;
 	background-repeat:no-repeat;
 }
@@ -663,8 +663,9 @@ p{padding:0; margin:0;}
 
 .title_img{
 	margin: auto;
-	width:100%;
-	height:auto;
+	width:500px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 	
 /*選單按鈕*/	
@@ -696,8 +697,9 @@ p{padding:0; margin:0;}
 	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
+    background-position: center bottom;
 	margin:auto;
-	width:1261px;
+    height: 100%;
 }
     
 /*網站地圖*/	
@@ -1043,7 +1045,7 @@ p{padding:0; margin:0;}
 .title_img{
 	margin:auto;
 	width:100%;
-	height:auto;
+    margin-top: 200px;
 }
 	
 /*選單按鈕*/	
@@ -1075,8 +1077,9 @@ p{padding:0; margin:0;}
 	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
+    background-position: center bottom;
 	margin:auto;
-	width:1261px;
+    height: 100%;
 }
 
 /*網站地圖*/	
@@ -1685,8 +1688,9 @@ p{padding:0; margin:0;}
 	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
+    background-position: center bottom;
 	margin:auto;
-	width:882.7px;
+    height: 100%;
 }
     
 /*網站地圖*/	
@@ -2311,7 +2315,8 @@ p{padding:0; margin:0;}
 	background-repeat:no-repeat;
 	background-size:contain;
 	margin:5vh auto auto auto;
-	width:882.7px;
+    background-position: center bottom;
+    height: 100%;
 }
 
 /*網站地圖*/	
@@ -2935,8 +2940,9 @@ p{padding:0; margin:0;}
 	background-image:url(../image/title2.png);
 	background-repeat:no-repeat;
 	background-size:contain;
+    background-position: center bottom;
 	margin:calc((100vh - 421.4px)/8) auto auto auto;
-	width:882.7px;
+    height: 100%;
 }
 
 /*網站地圖*/	
